@@ -36,15 +36,14 @@
             display: flex;
             flex-direction: column;
             align-items: stretch;
-            flex-shrink: 0;
+            flex: 1;
+            min-width: 0;
         }
 
         canvas {
             display: block;
             border-radius: 10px;
             border: 2px solid #1A2040;
-            max-width: calc(100vw - 260px);
-            height: auto;
         }
 
         #fact-panel {
@@ -90,9 +89,26 @@
 
         #fact-next:hover { background: rgba(80, 100, 180, 0.5); }
 
-        #fact-text {
+        #wiki-link {
+            display: none;
+            color: #5070A0;
+            font-size: 11px;
+            text-decoration: none;
+            letter-spacing: 0.3px;
+            margin-top: 6px;
+        }
+
+        #wiki-link:hover { color: #8AAAD0; text-decoration: underline; }
+
+        #fact-body {
             flex: 1;
+            display: flex;
+            flex-direction: column;
             max-width: 1000px;
+            overflow: hidden;
+        }
+
+        #fact-text {
             font-size: 20px;
             line-height: 1.5;
             color: #C8D4EE;
@@ -179,19 +195,75 @@
             opacity: 0.4;
             margin-right: 1px;
         }
+
+        @media (max-width: 700px) {
+            .layout {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .canvas-side {
+                width: 100%;
+            }
+
+            #fact-panel {
+                height: auto;
+                min-height: 80px;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            #fact-header {
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 8px;
+            }
+
+            #fact-name {
+                font-size: 18px;
+            }
+
+            #fact-text {
+                font-size: 14px;
+            }
+
+            .nav-side {
+                width: 100%;
+            }
+
+            #nav-panel {
+                max-height: 180px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .nav-btn {
+                flex: 0 0 auto;
+                width: auto;
+            }
+
+            .moon-btn {
+                margin-left: 0;
+                width: auto;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>SPACE EXPLORER</h1>
     <div class="layout">
         <div class="canvas-side">
-            <canvas id="game" width="1200" height="700"></canvas>
+            <h1>SPACE EXPLORER</h1>
+            <canvas id="game"></canvas>
             <div id="fact-panel">
                 <div id="fact-header">
                     <span id="fact-name"></span>
                     <button id="fact-next">Next fact →</button>
                 </div>
-                <div id="fact-text"></div>
+                <div id="fact-body">
+                    <div id="fact-text"></div>
+                    <a id="wiki-link" href="#" target="_blank" rel="noopener"></a>
+                </div>
             </div>
             <div id="status">Explored: <span id="visited-count">0</span> objects &mdash; Use nav buttons to travel, or arrow keys / WASD to fly freely</div>
         </div>

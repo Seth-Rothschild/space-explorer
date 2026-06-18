@@ -436,9 +436,18 @@ function show_fact_panel(name, color) {
     var panel = document.getElementById("fact-panel");
     var name_el = document.getElementById("fact-name");
     var text_el = document.getElementById("fact-text");
+    var link_el = document.getElementById("wiki-link");
     name_el.textContent = name;
     name_el.style.color = color || "#FFD700";
     name_el.style.textShadow = "0 0 12px " + (color || "#FFD700");
+    var wiki_url = (typeof WIKI_URLS !== "undefined") ? WIKI_URLS[name] : null;
+    if (wiki_url) {
+        link_el.href = wiki_url;
+        link_el.textContent = wiki_url;
+        link_el.style.display = "block";
+    } else {
+        link_el.style.display = "none";
+    }
     if (facts && facts.length > 0) {
         text_el.textContent = facts[current_fact_index];
         panel.style.visibility = "visible";
@@ -447,6 +456,7 @@ function show_fact_panel(name, color) {
 
 function hide_fact_panel() {
     document.getElementById("fact-panel").style.visibility = "hidden";
+    document.getElementById("wiki-link").style.display = "none";
     current_fact_name = null;
 }
 
@@ -627,10 +637,26 @@ function loop() {
     requestAnimationFrame(loop);
 }
 
+function resize_canvas() {
+    var w = canvas.parentElement.clientWidth;
+    var h = w < 700
+        ? Math.round(window.innerHeight * 0.5)
+        : Math.max(400, window.innerHeight - 260);
+    canvas.width = w;
+    canvas.height = h;
+    CANVAS_W = w;
+    CANVAS_H = h;
+    init_stars();
+}
+
 build_nav_buttons();
+window.addEventListener("resize", resize_canvas);
 document.getElementById("fact-next").addEventListener("click", function () {
     advance_fact();
     fact_cycle_timer = 0;
 });
 
-loop();
+requestAnimationFrame(function () {
+    resize_canvas();
+    loop();
+});

@@ -1,6 +1,6 @@
-var CANVAS_W = 1200;
-var CANVAS_H = 700;
-var EARTH_PERIOD = 60; // seconds for one Earth orbit
+var CANVAS_W;
+var CANVAS_H;
+var EARTH_PERIOD = 60;
 
 // All orbit_a values are visual world-pixels, not to scale.
 // eccentricity and orbit_tilt give each planet a distinct elliptical path.
@@ -78,14 +78,18 @@ var PLANET_DATA = [
 ];
 
 var STARS = [];
-for (var _si = 0; _si < 350; _si++) {
-    STARS.push({
-        x: Math.random() * CANVAS_W,
-        y: Math.random() * CANVAS_H,
-        size: Math.random() * 1.8 + 0.3,
-        phase: Math.random() * Math.PI * 2,
-        speed: 0.02 + Math.random() * 0.04,
-    });
+
+function init_stars() {
+    STARS = [];
+    for (var i = 0; i < 350; i++) {
+        STARS.push({
+            x: Math.random() * CANVAS_W,
+            y: Math.random() * CANVAS_H,
+            size: Math.random() * 1.8 + 0.3,
+            phase: Math.random() * Math.PI * 2,
+            speed: 0.02 + Math.random() * 0.04,
+        });
+    }
 }
 
 function draw_stars(ctx, tick) {

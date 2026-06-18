@@ -327,3 +327,35 @@ var FUN_FACTS = {
     "A science fiction writer in a 1940 novel invented three moons of Pluto and named them Charon, Styx, and Cerberus — three of the five moons later discovered bear almost exactly these names."
   ]
 };
+
+var WIKI_URLS = {
+  "SUN":       "https://en.wikipedia.org/wiki/Sun",
+  "MERCURY":   "https://en.wikipedia.org/wiki/Mercury_(planet)",
+  "VENUS":     "https://en.wikipedia.org/wiki/Venus",
+  "EARTH":     "https://en.wikipedia.org/wiki/Earth",
+  "MARS":      "https://en.wikipedia.org/wiki/Mars",
+  "CERES":     "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+  "JUPITER":   "https://en.wikipedia.org/wiki/Jupiter",
+  "SATURN":    "https://en.wikipedia.org/wiki/Saturn",
+  "URANUS":    "https://en.wikipedia.org/wiki/Uranus",
+  "NEPTUNE":   "https://en.wikipedia.org/wiki/Neptune",
+  "PLUTO":     "https://en.wikipedia.org/wiki/Pluto",
+  "HAUMEA":    "https://en.wikipedia.org/wiki/Haumea",
+  "MAKEMAKE":  "https://en.wikipedia.org/wiki/Makemake",
+  "ERIS":      "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)",
+  "MOON":      "https://en.wikipedia.org/wiki/Moon",
+  "PHOBOS":    "https://en.wikipedia.org/wiki/Phobos_(moon)",
+  "DEIMOS":    "https://en.wikipedia.org/wiki/Deimos_(moon)",
+  "IO":        "https://en.wikipedia.org/wiki/Io_(moon)",
+  "EUROPA":    "https://en.wikipedia.org/wiki/Europa_(moon)",
+  "GANYMEDE":  "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+  "CALLISTO":  "https://en.wikipedia.org/wiki/Callisto_(moon)",
+  "MIMAS":     "https://en.wikipedia.org/wiki/Mimas_(moon)",
+  "ENCELADUS": "https://en.wikipedia.org/wiki/Enceladus_(moon)",
+  "TITAN":     "https://en.wikipedia.org/wiki/Titan_(moon)",
+  "MIRANDA":   "https://en.wikipedia.org/wiki/Miranda_(moon)",
+  "TITANIA":   "https://en.wikipedia.org/wiki/Titania_(moon)",
+  "OBERON":    "https://en.wikipedia.org/wiki/Oberon_(moon)",
+  "TRITON":    "https://en.wikipedia.org/wiki/Triton_(moon)",
+  "CHARON":    "https://en.wikipedia.org/wiki/Charon_(moon)",
+};
