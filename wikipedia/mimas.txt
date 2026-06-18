@@ -1,0 +1,85 @@
+SOURCE: Wikipedia — "Mimas (moon)"
+URL: https://en.wikipedia.org/wiki/Mimas
+AUTHORS: Wikipedia contributors
+LICENSE: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+========================================================================
+
+Mimas is the seventh-largest natural satellite of Saturn. With a mean diameter of 396.4 kilometres or 246.3 miles, Mimas is the smallest astronomical body known to be roughly rounded in shape due to its own gravity. Mimas's low density, 1.15 g/cm3, indicates that it is composed mostly of water ice with only a small amount of rock, and study of Mimas's motion suggests that it may have a liquid ocean beneath its surface ice. The surface of Mimas is heavily cratered and shows little signs of recent geological activity. A notable feature of Mimas's surface is Herschel, one of the largest craters relative to the size of the parent body in the Solar System. Herschel measures 139 kilometres (86 miles) across, about one-third of Mimas's mean diameter, and formed from an extremely energetic impact event. The crater's name is derived from the discoverer of Mimas, William Herschel, in 1789. The moon's presence has created one of the largest 'gaps' in Saturn's ring, named the Cassini Division, due to orbital resonance destabilising the particles' orbit there.
+
+
+Discovery and naming
+
+
+Discovery
+ Mimas was discovered by the astronomer William Herschel on 17 September 1789. He recorded his discovery as follows: 
+I continued my observations constantly, whenever the weather would permit; and the great light of the forty-feet speculum was now of so much use, that I also, on the 17th of September, detected the seventh satellite, when it was at its greatest preceding elongation.
+The 40-foot telescope was a metal mirror reflecting telescope built by Herschel, with a 48-inch (1,200 mm) aperture. The 40 feet refers to the length of the focus, not the aperture diameter as is more common with modern telescopes.
+
+
+Name
+
+Mimas is named after one of the Giants in Greek mythology, Mimas. The names of all seven then-known satellites of Saturn, including Mimas, were suggested by William Herschel's son John in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. Saturn (the Roman equivalent of Cronus in Greek mythology) was the leader of the Titans, the generation before the Gods, and rulers of the world for some time, while the Giants were the subsequent generation, and each group fought a great struggle against Zeus and the Olympians.
+The customary English pronunciation of the name is , or sometimes .
+The Greek and Latin root of the name is Mimant- (cf. Italian Mimante, Russian Мимант for the mythological figure), and so the English adjectival form is Mimantean or Mimantian, either spelling pronounced  ~ .
+Planetary moons other than Earth's were never given symbols in the astronomical literature. Denis Moskowitz, a software engineer who designed most of the dwarf planet symbols, proposed a Greek mu (the initial of Mimas) combined with the crook of the Saturn symbol as the symbol of Mimas (). This symbol is not widely used.
+
+
+Physical characteristics
+
+Mimas is the smallest and innermost of Saturn's major moons. The surface area of Mimas is slightly less than the land area of Spain or California. The low density of Mimas, 1.15 g/cm3, indicates that it is composed mostly of water ice with only a small amount of rock. As a result of the tidal forces acting on it, Mimas is noticeably oblate; its longest axis is about 10% longer than the shortest. The ellipsoidal shape of Mimas is especially noticeable in a 14 October 2009 image from the Cassini probe. Mimas's most distinctive feature is a giant impact crater 139 km (86 mi) across, named Herschel after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately 5 km (3 mi) high, parts of its floor measure 10 km (6 mi) deep, and its central peak rises 6 km (4 mi) above the crater floor. If there were a crater of an equivalent scale on Earth (in relative size) it would be over 4,000 km (2,500 mi) in diameter, wider than Australia. The impact that made this crater must have nearly shattered Mimas: the surface antipodal to Herschel (opposite through the globe) is highly disrupted, indicating that the shock waves created by the Herschel impact propagated through the whole moon.
+
+The Mimantean surface is saturated with smaller impact craters, but no others are anywhere near the size of Herschel. Although Mimas is heavily cratered, the cratering is not uniform. Most of the surface is covered with craters larger than 40 km (25 mi) in diameter, but in the south polar region, there are generally no craters larger than 20 km (12 mi) in diameter.
+Three types of geological features are officially recognised on Mimas: craters, chasmata (chasms), and catenae (crater chains).
+By studying Mimas's movement, researchers have found that it has a water ocean beneath 20–30 km (12–19 mi) of surface ice. The ocean formed within the last 25 million years, perhaps even the last 2-3 million years, and is thought to be warmed by Saturn's tidal forces.
+
+
+Orbital resonances
+A number of features in Saturn's rings are related to resonances with Mimas. Mimas is responsible for clearing the material from the Cassini Division, the gap between Saturn's two widest rings, the A Ring and B Ring. Particles in the Huygens Gap at the inner edge of the Cassini division are in a 2:1 orbital resonance with Mimas (ie, they orbit twice for each orbit of Mimas). The repeated pulls by Mimas on the Cassini division particles, which are always in the same direction in space, force them into new orbits outside the gap. The boundary between the C and B rings is in a 3:1 resonance with Mimas. Recently, the G Ring was found to be in a 7:6 co-rotation eccentricity resonance with Mimas; the ring's inner edge is about 15,000 km (9,300 mi) inside Mimas's orbit.
+Mimas is also in a 2:1 mean-motion resonance with the larger moon Tethys, and in a 2:3 resonance with the outer F Ring shepherd moonlet, Pandora. A moon co-orbital with Mimas was reported by Stephen P. Synnott and Richard J. Terrile in 1982, but was never confirmed.
+
+
+Anomalous libration and subsurface ocean
+In 2014, researchers noted that the librational motion of Mimas has a component that cannot be explained by its orbit alone, and concluded that it was due to either an interior that is not in hydrostatic equilibrium (an elongated core) or an internal ocean. However, in 2017 it was concluded that the presence of an ocean in Mimas's interior would have led to surface tidal stresses comparable to or greater than those on tectonically active Europa. Thus, the lack of evidence for surface cracking or other tectonic activity on Mimas argues against the presence of such an ocean; as the formation of a core would have also produced an ocean and thus the nonexistent tidal stresses, that possibility is also unlikely. The presence of an asymmetric mass anomaly associated with the crater Herschel was considered to be a more likely explanation for the libration.
+In 2022, scientists at the Southwest Research Institute identified a tidal heating model for Mimas that produced an internal ocean without any surface cracking or visible tidal stresses. The presence of an internal ocean concealed by a stable icy shell between 24 and 31 km in thickness was found to match the visual and librational characteristics of Mimas as observed by Cassini. Continued measurements of Mimas's surface heat flux will be needed to confirm this hypothesis.
+On 7 February 2024, researchers at the Paris Observatory announced the discovery that Mimas's orbit apsidally precesses slower than predicted if it were a solid body, which further supports the existence of a subsurface ocean in Mimas. The researchers estimated the ocean to be located 20 to 30 km below the surface, consistent with previous estimates. The researchers suggest that Mimas's ocean must be very young, less than 25 million years old, to explain the lack of geological activity on Mimas's cratered surface.
+
+
+Exploration
+Pioneer 11 flew by Saturn in 1979, and its closest approach to Mimas was 104,263 km on 1 September 1979. Voyager 1 flew by in 1980, and Voyager 2 in 1981.
+
+Mimas was imaged several times by the Cassini orbiter, which entered into orbit around Saturn in 2004. A close flyby occurred on 13 February 2010, when Cassini passed by Mimas at 9,500 km (5,900 mi).
+
+
+Similarities in popular culture
+
+When seen from certain angles, Mimas resembles the Death Star, a fictional space station and superweapon known from the 1977 film Star Wars. Herschel resembles the concave disc of the Death Star's "superlaser". This is a coincidence, as the film was made nearly three years before Mimas was resolved well enough to see the crater.
+In 2010, NASA revealed a temperature map of Mimas, using images obtained by Cassini. The warmest regions, which are along one edge of Mimas, create a shape similar to the video game character Pac-Man, with Herschel Crater assuming the role of an "edible dot" or "power pellet" known from Pac-Man gameplay.
+
+
+See also
+List of natural satellites
+Mimas in fiction
+Extraterrestrial liquid water
+Ocean world
+
+
+References
+ 
+
+
+External links
+
+Cassini mission page – Mimas
+Mimas Profile at NASA's Solar System Exploration site
+The Planetary Society: Mimas
+Google Mimas 3D, interactive map of the moon
+Mimas page at The Nine Planets
+Views of the Solar System – Mimas
+Cassini images of Mimas
+Images of Mimas at JPL's Planetary Photojournal
+3D shape model of Mimas (requires WebGL)
+Paul Schenk's Mimas blog entry and movie of Mimas's rotation on YouTube
+Mimas global and polar basemaps (June 2012) from Cassini images
+Mimas atlas (July 2010) from Cassini images
+Mimas nomenclature and Mimas map with feature names from the USGS planetary nomenclature page
+Figure "J" is Mimas transiting Saturn in 1979, imaged by Pioneer 11 from here

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Explorer!</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            background: #02040E;
+            margin: 0;
+            padding: 10px 14px;
+            font-family: Arial, sans-serif;
+            color: #EEE;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 26px;
+            margin: 0 0 8px;
+            letter-spacing: 3px;
+            text-shadow: 0 0 20px #FF8C00, 0 0 6px #FFD700;
+            text-align: center;
+        }
+
+        .layout {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .canvas-side {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            flex-shrink: 0;
+        }
+
+        canvas {
+            display: block;
+            border-radius: 10px;
+            border: 2px solid #1A2040;
+            max-width: calc(100vw - 260px);
+            height: auto;
+        }
+
+        #fact-panel {
+            display: flex;
+            visibility: hidden;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 14px;
+            background: rgba(5, 8, 28, 0.92);
+            border: 1px solid #2A3560;
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+            padding: 12px 16px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        #fact-header {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        #fact-name {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        #fact-next {
+            background: rgba(80, 100, 180, 0.3);
+            border: 1px solid rgba(100, 130, 220, 0.5);
+            color: #AAC0FF;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        #fact-next:hover { background: rgba(80, 100, 180, 0.5); }
+
+        #fact-text {
+            flex: 1;
+            max-width: 1000px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #C8D4EE;
+            overflow: hidden;
+            word-wrap: break-word;
+        }
+
+        #status {
+            color: #5080AA;
+            font-size: 13px;
+            margin-top: 6px;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-side {
+            flex-shrink: 0;
+            width: 210px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .nav-title {
+            color: #8898CC;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 4px 0 2px;
+            text-align: center;
+        }
+
+        #nav-panel {
+            background: rgba(5, 8, 28, 0.85);
+            border: 1px solid #1A2040;
+            border-radius: 10px;
+            padding: 8px;
+            max-height: 82vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        #nav-panel::-webkit-scrollbar { width: 5px; }
+        #nav-panel::-webkit-scrollbar-track { background: rgba(10,14,40,0.5); }
+        #nav-panel::-webkit-scrollbar-thumb { background: #2A3560; border-radius: 3px; }
+
+        .nav-btn {
+            display: block;
+            width: 100%;
+            padding: 7px 10px;
+            border-radius: 6px;
+            border: 1px solid transparent;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: left;
+            letter-spacing: 1px;
+            transition: filter 0.15s, border-color 0.15s;
+        }
+
+        .nav-btn:hover { filter: brightness(1.35); }
+        .nav-btn:active { filter: brightness(0.85); }
+
+        .planet-btn {
+            font-size: 13px;
+        }
+
+        .moon-btn {
+            font-size: 11px;
+            margin-left: 14px;
+            width: calc(100% - 14px);
+            padding: 4px 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-active {
+            box-shadow: 0 0 0 2px currentColor, 0 0 12px rgba(255,255,255,0.2);
+            filter: brightness(1.4);
+        }
+
+        .nav-check {
+            font-size: 10px;
+            opacity: 0.4;
+            margin-right: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPACE EXPLORER</h1>
+    <div class="layout">
+        <div class="canvas-side">
+            <canvas id="game" width="1200" height="700"></canvas>
+            <div id="fact-panel">
+                <div id="fact-header">
+                    <span id="fact-name"></span>
+                    <button id="fact-next">Next fact →</button>
+                </div>
+                <div id="fact-text"></div>
+            </div>
+            <div id="status">Explored: <span id="visited-count">0</span> objects &mdash; Use nav buttons to travel, or arrow keys / WASD to fly freely</div>
+        </div>
+        <div class="nav-side">
+            <div class="nav-title">Navigate To</div>
+            <div id="nav-panel"></div>
+        </div>
+    </div>
+    <script src="fun_facts.js"></script>
+    <script src="space.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+// Facts sourced from Wikipedia (https://en.wikipedia.org/wiki/Main_Page)
+// Authors: Wikipedia contributors
+// License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+// Full article text with per-article attribution is stored in wikipedia/
+
+var FUN_FACTS = {
+  "SUN": [
+    "Every second, the Sun converts about 600 billion kilograms of hydrogen into helium and turns 4 billion kilograms of matter directly into energy.",
+    "A photon of light born in the Sun's core takes between 10,000 and 170,000 years to reach the surface, yet it then crosses the 150-million-kilometer gap to Earth in just over 8 minutes.",
+    "The Sun is the closest known object to a perfect sphere ever measured — its equator is only about 10 km wider than its poles out of a total diameter of 1.4 million km.",
+    "The Sun's corona is mysteriously hotter than its visible surface: the surface is about 5,800 K while the corona reaches 1 to 2 million K.",
+    "The element helium was discovered in the Sun before it was found on Earth — named after Helios, the Greek sun god.",
+    "In about 5 billion years the Sun will swell into a red giant roughly 256 times its current size, before shrinking into a white dwarf.",
+    "The Sun contains 99.86% of all the mass in the entire Solar System.",
+    "The Sun orbits the center of the Milky Way at about 230 km/s and takes 220 to 250 million years to complete one lap — a 'galactic year'.",
+    "The power density at the Sun's core is only about 276 watts per cubic meter — roughly the same as a compost heap. The Sun shines purely because it is enormous.",
+    "The Sun rotates faster at its equator (about 25 days per rotation) than at its poles (about 33 days) because it is not a solid body."
+  ],
+  "MERCURY": [
+    "A single day on Mercury (sunrise to sunrise) lasts 176 Earth days — twice as long as its year.",
+    "From certain spots on Mercury, you could watch the Sun rise, slow to a halt, move backward in the sky, and then resume — all in a single day.",
+    "Despite being the closest planet to the Sun, Mercury is not the hottest: its surface swings from −170°C at night to 420°C in sunlight.",
+    "Mercury has water ice hiding in permanently shadowed craters at its poles — cold enough to preserve ice even though daytime temperatures exceed 400°C.",
+    "Mercury's core takes up about 57% of its volume — proportionally far larger than Earth's core, which is only 17% of Earth's volume.",
+    "Mercury has a global magnetic field, which surprised scientists because a planet rotating as slowly as Mercury was not expected to generate one.",
+    "Getting a spacecraft to Mercury requires more rocket fuel than escaping the Solar System entirely, because the craft must shed enormous speed gained by falling toward the Sun.",
+    "Mercury's orbit wobbles in a way Newtonian physics cannot fully explain — one of the first real-world confirmations of Einstein's general theory of relativity.",
+    "Craters on Mercury are named for famous artists, musicians, and authors.",
+    "Magnetic 'tornadoes' up to 800 km wide punch through Mercury's magnetic shield, creating windows through which the solar wind blasts directly onto the surface."
+  ],
+  "VENUS": [
+    "Venus rotates so slowly and in the wrong direction that its day (243 Earth days) is longer than its year (224.7 Earth days), and the Sun rises in the west.",
+    "The atmospheric pressure on Venus's surface is 92 times greater than Earth's at sea level — equivalent to being nearly 1 km underwater.",
+    "Venus is the hottest planet in the Solar System, with an average surface temperature of 464°C — hotter than Mercury despite being nearly twice as far from the Sun.",
+    "The winds at Venus's cloud tops blow at 300 km/h and complete a full lap around the planet in just 4 Earth days.",
+    "Venus has more than 85,000 identified volcanoes — more than any other planet in the Solar System.",
+    "Venus has no moons, but evidence suggests it may once have had one that spiraled back into the planet.",
+    "At about 50 km above Venus's surface, temperatures and pressures are remarkably similar to those at Earth's surface — the most Earth-like environment anywhere else in the Solar System.",
+    "Over five consecutive close approaches, Venus traces a nearly perfect five-pointed star as seen from Earth.",
+    "Venus's surface is relatively young — only 300 to 600 million years old — because the planet periodically undergoes a global resurfacing event.",
+    "Ancient Greeks called Venus 'Phosphorus' (the morning star) and 'Hesperus' (the evening star) before realizing both were the same world."
+  ],
+  "EARTH": [
+    "Earth is the densest planet in the Solar System, even though it is not the largest.",
+    "The Moon is almost exactly the same apparent size as the Sun in Earth's sky — purely by coincidence, the Sun is about 400 times wider but also about 400 times farther away.",
+    "The Moon is slowly moving away from Earth at about 38 mm per year.",
+    "Earth's inner core rotates slightly faster than the rest of the planet — it is, in effect, a planet within a planet slowly spinning inside us.",
+    "Earth is the only planet in the Solar System with plate tectonics actively recycling its crust.",
+    "Without the greenhouse effect, Earth's average surface temperature would be about −18°C instead of the current +15°C.",
+    "About 2.7 billion years ago, photosynthetic microbes flooded Earth's atmosphere with oxygen for the first time, eventually making complex animal life possible.",
+    "Earth has at least seven known quasi-satellites — small asteroids that loop around Earth in a complex gravitational dance.",
+    "The Cocos tectonic plate moves at about 75 mm per year — roughly the rate fingernails grow.",
+    "A tiny near-Earth asteroid, 2006 RH120, is temporarily captured into orbit around Earth for a few months roughly every twenty years."
+  ],
+  "MARS": [
+    "Olympus Mons on Mars is the tallest volcano in the Solar System — about 21.9 km tall and over 600 km wide.",
+    "Valles Marineris is a canyon system that stretches 4,000 km across Mars — roughly the width of the United States.",
+    "Mars has the largest known dust storms in the Solar System. Some grow to cover the entire planet for months.",
+    "Mars's tiny moon Phobos rises in the west and sets in the east, completing a full orbit in just 11 hours.",
+    "A Martian day lasts 24 hours and 39 minutes — almost identical to Earth's — but a Martian year lasts 687 Earth days.",
+    "There is strong evidence that Mars once had an ocean covering a significant portion of its northern hemisphere.",
+    "Water ice equivalent to the volume of Lake Superior has been detected buried underground in Mars's Utopia Planitia region.",
+    "Mars has no global magnetic field, but sections of its ancient crust are still magnetized — fossil records of a field that existed 4 billion years ago.",
+    "Auroras can occur anywhere on Mars, not just near the poles, because there is no global magnetic field to guide them.",
+    "The Martian sky is a butterscotch-to-pinkish color due to fine iron-oxide dust suspended in the thin atmosphere."
+  ],
+  "CERES": [
+    "Ceres is the closest known cryovolcanically active body to the Sun: its lone prominent mountain, Ahuna Mons, is an ice-and-salt dome that erupted geologically recently.",
+    "The bright spots in Occator Crater turned out to be deposits of sodium carbonate — salt from an ancient brine that seeped up from a deep subsurface reservoir.",
+    "Ceres contains about 40% of the total mass of the entire asteroid belt.",
+    "Organic compounds were detected in Ceres's Ernutet crater, with surface carbon content more than five times higher than in the carbonaceous meteorites that fall to Earth.",
+    "Ceres may have originally formed beyond Jupiter's orbit.",
+    "Ceres has a transient atmosphere of water vapor vented from localized sources.",
+    "Ceres was discovered on January 1, 1801 — the first day of the 19th century — and was classified as a planet for over 50 years before being demoted to asteroid, then upgraded to dwarf planet in 2006.",
+    "The mathematician Carl Friedrich Gauss, then only 24 years old, invented a new method of orbital calculation specifically to recover Ceres after it disappeared behind the Sun.",
+    "Cerium, a rare-earth element, was named after Ceres — commemorating it in the periodic table."
+  ],
+  "JUPITER": [
+    "Jupiter is more massive than all the other planets combined — 2.5 times their total mass.",
+    "The Great Red Spot is a storm that has been raging continuously for at least 150 years, and it is larger than the entire Earth.",
+    "High pressure inside Jupiter may convert carbon into diamond crystals that then fall through the interior — it may genuinely rain diamonds on Jupiter.",
+    "Jupiter's magnetic field is the strongest of any planet and extends so far that its tail nearly reaches Saturn.",
+    "Jupiter's four large moons were the first objects ever discovered orbiting another planet, by Galileo in 1610.",
+    "Lightning on Jupiter can be up to a thousand times more powerful than lightning on Earth.",
+    "Jupiter acts as a partial cosmic shield: its enormous gravity captures or deflects many comets and asteroids.",
+    "Jupiter was the first planet to form in the Solar System, coalescing just one million years after the Sun.",
+    "Inside Jupiter, helium droplets condense and rain downward through liquid metallic hydrogen, releasing heat as they fall.",
+    "Jupiter radiates more heat than it receives from the Sun."
+  ],
+  "SATURN": [
+    "Saturn is the only planet in the Solar System less dense than water — if you could find a bathtub big enough, Saturn would float.",
+    "Saturn's rings extend up to 120,700 km from the planet but average only about 20 meters in thickness.",
+    "Saturn's north pole hosts a permanent hexagonal cloud pattern, each side about 14,500 km long — longer than Earth's entire diameter.",
+    "Saturn radiates about 2.5 times more heat into space than it receives from the Sun.",
+    "Saturn's moon Titan is the only moon with a dense atmosphere, and the only world besides Earth with stable liquid on its surface.",
+    "Saturn's moon Enceladus has more than 100 active geysers at its south pole that spray water ice into space.",
+    "Saturn has 293 known moons — more than any other planet in the Solar System.",
+    "Saturn's winds are the second fastest in the Solar System, reaching 1,800 km/h.",
+    "When Earth passes through Saturn's ring plane (roughly every 15 years), the rings appear to completely vanish because they are so incredibly thin.",
+    "Saturn gives us the word 'Saturday' — the Romans named the seventh day of the week after it."
+  ],
+  "URANUS": [
+    "Uranus is tipped almost completely on its side, with an axial tilt of about 98 degrees — it effectively rolls around the Sun rather than spinning upright.",
+    "Uranus is the coldest planet in the Solar System, with a minimum temperature of −224°C — colder even than Neptune.",
+    "Deep inside Uranus, methane may be compressed into diamond crystals that rain through the interior.",
+    "Uranus was the first planet discovered with a telescope — William Herschel recognized it in 1781.",
+    "Uranus has 13 known rings, all extremely narrow and dark — they reflect only about 2% of incoming light.",
+    "Uranus's magnetic field is bizarrely offset: instead of emerging from near the planet's center, it originates from a point about one-third of the way out.",
+    "The discovery of Uranus effectively doubled the known size of the Solar System overnight.",
+    "All of Uranus's 29 known moons are named after characters from the works of William Shakespeare and Alexander Pope.",
+    "Uranus's moon Miranda has cliffs up to 20 km tall — among the tallest known cliffs in the Solar System.",
+    "Uranus experiences wind speeds up to 900 km/h despite receiving sunlight about 400 times weaker than Earth does."
+  ],
+  "NEPTUNE": [
+    "Neptune was discovered by mathematics before anyone ever saw it through a telescope.",
+    "Neptune has the fastest winds of any planet in the Solar System, reaching over 2,100 km/h — nearly supersonic.",
+    "Neptune radiates about 2.61 times more heat into space than it receives from the Sun.",
+    "Neptune's largest moon Triton orbits backward — opposite to Neptune's rotation — and is slowly spiraling inward.",
+    "Triton was the coldest object ever measured in the Solar System when Voyager 2 visited in 1989, at −235°C.",
+    "Neptune's outermost ring has five distinct bright clumps called 'arcs' with names including Liberté, Egalité, and Fraternité.",
+    "Neptune's gravity has sculpted the Kuiper Belt into distinct zones, and Pluto is locked in a 2:3 resonance with Neptune.",
+    "Neptune completed its very first full orbit since its discovery in 2011 — it takes 164.8 years to go once around the Sun.",
+    "A single season on Neptune lasts about 40 Earth years.",
+    "Galileo observed Neptune in 1612 but thought it was a fixed star."
+  ],
+  "PLUTO": [
+    "Pluto's heart-shaped nitrogen ice plain, Sputnik Planitia, is only about 180,000 years old — geologically brand new.",
+    "Pluto rotates on its side with an axial tilt of 120°, meaning each pole spends decades in continuous sunlight or darkness.",
+    "Light from the Sun takes 5.5 hours to reach Pluto, and one Plutonian year lasts 248 Earth years.",
+    "Pluto and its moon Charon are so similar in size that their shared center of gravity lies in open space between them.",
+    "Pluto's atmosphere has 20 distinct haze layers stacked up to 150 km high.",
+    "Scientists suspect Pluto may harbor a liquid water ocean 100–180 km thick beneath its frozen surface.",
+    "Despite Pluto's orbit appearing to cross Neptune's, the two bodies never actually get closer than 17 AU.",
+    "The first two letters of Pluto's name are the initials of Percival Lowell, the astronomer who funded the search for it, though the name was actually suggested by an 11-year-old schoolgirl.",
+    "Pluto's surface ranges from charcoal black to bright white and orange.",
+    "Pluto has dunes made of methane particles, blown by thin nitrogen winds across its plains."
+  ],
+  "HAUMEA": [
+    "Haumea spins so fast — completing a full rotation every 3.9 hours — that it has been squashed into a football shape.",
+    "Haumea is the only known trans-Neptunian object with a ring system.",
+    "Haumea was once the center of a catastrophic collision that sprayed shards across the Kuiper Belt.",
+    "The surface of Haumea is covered in crystalline water ice that should have been converted to amorphous ice by radiation — something must be continuously resurfacing it.",
+    "Haumea's two moons, Hi'iaka and Namaka, are thought to have literally sprung from Haumea in an ancient collision.",
+    "Haumea's rapid rotation is almost certainly a direct result of the giant impact that created its moons.",
+    "A large dark-red spot on Haumea's otherwise bright white surface is thought to be an ancient impact scar rich in organic compounds.",
+    "The discovery of Haumea was disputed between two teams; the IAU resolved it by crediting the Spanish team's announcement while using the California team's name suggestion."
+  ],
+  "MAKEMAKE": [
+    "Makemake was nicknamed 'Easterbunny' by its discoverers because it was found just after Easter 2005.",
+    "Makemake's surface is covered in thick slabs of methane ice, yet the dwarf planet is stained reddish-brown where complex organic compounds build up.",
+    "Unlike Pluto and Eris, Makemake has no detectable nitrogen ice or carbon monoxide on its surface.",
+    "The James Webb Space Telescope detected evidence of active geochemical processes inside Makemake, suggesting a possibly liquid-water interior.",
+    "A 2025 study proposed that Makemake has a cryovolcanic hotspot roughly 10 km across.",
+    "Makemake's one known moon is so dark that it went undetected for a decade despite orbiting just 22,000 km away.",
+    "Makemake was discovered late because its highly inclined orbit carries it far from the ecliptic, outside the search zones of earlier sky surveys.",
+    "Gaseous methane has been detected around Makemake by JWST — making it only the second trans-Neptunian object after Pluto confirmed to have gas around it."
+  ],
+  "ERIS": [
+    "Eris is 27% more massive than Pluto yet slightly smaller in volume, making it the densest known dwarf planet.",
+    "Eris's discovery in 2005 directly triggered the IAU vote that demoted Pluto.",
+    "Eris is currently about 96 AU from the Sun — over three times farther away than Pluto.",
+    "Eris has an albedo of 0.96, making it nearly as reflective as fresh snow.",
+    "The James Webb Space Telescope detected methane on Eris, suggesting geochemical reactions in a possibly still-active subsurface ocean.",
+    "Eris is tidally locked to its moon Dysnomia — both always showing the same face to each other.",
+    "Eris's highly inclined orbit (44° to the ecliptic) is why it went unnoticed until 2005 — sky surveys looked in the wrong direction.",
+    "The name Eris — Greek goddess of strife and discord — was chosen because it 'caused strife and discord' in the debate over what counts as a planet.",
+    "Subtle brightness variations suggest Eris may have a hidden inner moon about 1,000 km across."
+  ],
+  "MOON": [
+    "The Moon is drifting away from Earth at 38 mm per year — about the rate fingernails grow.",
+    "A permanently shadowed crater near the Moon's north pole holds one of the coldest temperatures ever recorded: just 26 K (−247°C), colder even than Pluto.",
+    "The Moon's far side has a dramatically thicker crust and almost no dark volcanic maria.",
+    "About 3 to 4 billion years ago, the Moon had a thick volcanic atmosphere for roughly 70 million years.",
+    "A confirmed cave entrance near the Sea of Tranquility maintains a stable temperature of around 17°C and could shelter future astronauts.",
+    "The Moon's South Pole–Aitken Basin is the second-largest confirmed impact crater in the entire Solar System, 2,240 km wide and 13 km deep.",
+    "Moonquakes can last up to an hour — far longer than earthquakes — because the dry crust scatters seismic waves for much longer.",
+    "The Moon's unusual apparent size in the sky — almost exactly matching the Sun's — makes total solar eclipses possible.",
+    "In about 50 billion years, the Moon may appear stationary in Earth's sky — but the Sun will likely engulf everything long before then.",
+    "Earth has at least one known quasi-satellite, Kamoʻoalewa, that may be a fragment blasted off the Moon in an ancient impact."
+  ],
+  "PHOBOS": [
+    "Phobos orbits Mars faster than Mars rotates, so from the Martian surface it rises in the west, races across the sky in just over 4 hours, and sets in the east.",
+    "Phobos is slowly spiraling toward Mars at about 2 cm per year; in roughly 30–50 million years, tidal forces will tear it apart.",
+    "The enormous crater Stickney is nearly one-third the diameter of Phobos itself — the impact almost shattered the entire moon.",
+    "Phobos is one of the least reflective bodies in the Solar System — darker than asphalt.",
+    "Phobos is 25–35% empty space by volume, a porous rubble pile held together by a thin crust.",
+    "The grooves that stripe Phobos's surface are 'stretch marks' — tidal stress fractures caused by Mars's gravitational grip.",
+    "Features on Phobos are named after characters and places from Jonathan Swift's Gulliver's Travels.",
+    "From the Martian surface, Phobos is too small to cause a total solar eclipse, appearing as a fast-moving bright dot.",
+    "In the late 1950s, a scientist seriously proposed that Phobos must be hollow and artificial — before data errors were corrected."
+  ],
+  "DEIMOS": [
+    "Deimos orbits so far from Mars and so slowly that it takes 2.7 Martian days just to go from rising to setting — it barely seems to move.",
+    "From the Martian surface, Deimos appears no more than 2.5 arcminutes across, yet at 'full Deimos' it would shine about as bright as Venus does from Earth.",
+    "Deimos is slowly drifting away from Mars — it may eventually escape Mars's gravity entirely.",
+    "The escape velocity from Deimos is only 5.6 m/s — slower than a sprinting human.",
+    "Only two geological features on Deimos have been officially named: craters Swift and Voltaire.",
+    "Deimos's surface is noticeably smoother than Phobos's because craters have been partially filled in by loose regolith.",
+    "A 2023 flyby found characteristics pointing to a Mars-derived origin for Deimos — possibly a fragment blasted off Mars long ago.",
+    "Both Phobos and Deimos were discovered by Asaph Hall in the same week in August 1877, after he had nearly given up the search."
+  ],
+  "IO": [
+    "Io has over 400 active volcanoes — more than any other body in the Solar System — powered entirely by tidal squeezing from Jupiter.",
+    "Volcanic plumes on Io shoot material up to 500 km into space.",
+    "Io has essentially no water — it is the driest known body in the Solar System.",
+    "Io has no visible impact craters anywhere on its surface; volcanic activity buries every crater almost as fast as it forms.",
+    "Io's mountains — up to 17.5 km tall, taller than anything on Earth — are not volcanic but tectonic.",
+    "Io was used in 1676 to make the first measurement of the speed of light.",
+    "Io's tidal bulge varies by up to 100 meters between its closest and farthest points from Jupiter.",
+    "In 2024, a single volcanic outburst on Io released an estimated 140–260 terawatts of power — possibly the most energetic volcanic event ever recorded on any world.",
+    "Io generates 400,000 volts across its own body, carrying an electric current of 3 million amperes to Jupiter's atmosphere."
+  ],
+  "EUROPA": [
+    "Europa is the smoothest known solid object in the Solar System — its ice shell continuously resurfaces itself, erasing older terrain.",
+    "Europa's subsurface ocean holds an estimated volume 2–3 times larger than all of Earth's oceans combined.",
+    "The tidal forces Europa experiences from Jupiter are about 1,000 times stronger than what Earth's oceans feel from the Moon.",
+    "Europa's crisscrossing dark lines are fractures where warm ice welled up, analogous to mid-ocean ridges on Earth.",
+    "The surface radiation at Europa is lethal to humans: about 5.4 Sv per day.",
+    "Europa has a thin oxygen atmosphere — not produced biologically, but by radiation splitting surface water ice.",
+    "In 1997, the Galileo spacecraft may have flown through a water plume erupting from Europa's surface.",
+    "Ice on Europa's equator is expected to be as hard as granite, with surface temperatures of about −160°C.",
+    "Europa's icy surface may be studded with jagged spikes called penitentes up to 15 meters tall near the equator."
+  ],
+  "GANYMEDE": [
+    "Ganymede is the largest moon in the Solar System — bigger than the planet Mercury.",
+    "Ganymede is the only moon in the Solar System known to generate its own magnetic field.",
+    "Ganymede's internal ocean may contain more liquid water than all of Earth's oceans combined.",
+    "Juno confirmed that Ganymede's magnetic field is generated by a convecting liquid iron core — the same mechanism as Earth's.",
+    "Ganymede's surface shows two very different terrains: ancient dark plains with 4-billion-year-old craters, and younger bright terrain laced with grooves.",
+    "Hubble Space Telescope measurements of Ganymede's rocking auroras in 2015 provided the first conclusive proof of its subsurface ocean.",
+    "Ganymede has polar ice caps composed of water frost extending to 40° latitude.",
+    "ESA's JUICE mission, launched in 2023, will be the first spacecraft ever to orbit a moon other than Earth's.",
+    "In 365 BC, the Chinese astronomer Gan De may have spotted Ganymede with the naked eye — nearly two millennia before Galileo."
+  ],
+  "CALLISTO": [
+    "Callisto's surface is the most heavily cratered in the Solar System — virtually unchanged for 4 billion years.",
+    "Despite being nearly as large as Mercury, Callisto has zero geological activity from tides or internal heat.",
+    "Callisto's massive multi-ring basin Valhalla spans 1,800 km across.",
+    "Callisto's radiation environment is the lowest of Jupiter's Galilean moons — making it the most practical staging point for human missions into the Jovian system.",
+    "Callisto appears to have only partially differentiated — its rock and ice are still somewhat mixed together.",
+    "Callisto's tiny knobs are remnants of ancient crater rims slowly sublimating away — ice evaporating and leaving dark dust behind.",
+    "Callisto may have a subsurface ocean 150–200 km beneath its surface.",
+    "Scientists found an 'oxygen enigma' at Callisto: the moon's thin oxygen atmosphere is far denser than standard models can explain."
+  ],
+  "MIMAS": [
+    "Mimas's enormous crater Herschel is nearly one-third of the moon's entire diameter — the impact almost shattered Mimas entirely.",
+    "Mimas looks almost exactly like the Death Star from Star Wars — Herschel Crater even sits where the superlaser dish would be.",
+    "A 2024 discovery revealed that Mimas has a subsurface ocean only 20–30 km beneath its cratered surface, less than 25 million years old.",
+    "Because Mimas's ocean is so young, its surface has no tectonic activity — a 'stealth ocean world' hiding a fresh interior sea.",
+    "Mimas is responsible for the Cassini Division, Saturn's most prominent gap in its rings.",
+    "Mimas is the smallest known astronomical body to be rounded by its own gravity — at just 396 km in diameter.",
+    "A 2010 temperature map of Mimas revealed a Pac-Man shaped warm region on the surface.",
+    "The impact that created Herschel sent shock waves completely through Mimas, disrupting terrain on the exact opposite side."
+  ],
+  "ENCELADUS": [
+    "Enceladus ejects about 200 kg of water vapor per second from its south pole through over 100 geysers.",
+    "Cassini flew through Enceladus's plumes and found molecular hydrogen, organic molecules, and hydrothermal signatures — active chemistry between hot water and rock on the ocean floor.",
+    "Enceladus is the most reflective body in the Solar System — its geysers continuously coat the surface in fresh white snow.",
+    "The geysers of Enceladus pulse with the moon's orbit: they are about four times brighter when Enceladus is farthest from Saturn.",
+    "Enceladus's global subsurface ocean is about 26–31 km deep — roughly seven times the average depth of Earth's oceans.",
+    "The alkaline chemistry of Enceladus's ocean (pH 11–12) is the result of the same water-rock reaction proposed as a cradle for the origin of life.",
+    "Enceladus's internal heat output is about 4.7 gigawatts — roughly 10 times more than can be explained by tidal heating and radioactive decay alone.",
+    "Amino acid precursors and nitrogen-bearing organic compounds have been detected in Enceladus's plume material.",
+    "Despite being much smaller than Mimas and closer to Saturn, Enceladus is ferociously active while Mimas appears geologically dead."
+  ],
+  "TITAN": [
+    "Titan is the only moon in the Solar System with a dense atmosphere, and the only world besides Earth with stable liquid on its surface — though the lakes are liquid methane and ethane, not water.",
+    "Saturn appears over ten times larger in Titan's sky than the Moon does in Earth's sky.",
+    "Titan's methane cycle closely mirrors Earth's water cycle: methane evaporates from lakes, forms clouds, rains down, carves river channels — but at −179°C.",
+    "The Huygens probe that landed on Titan in 2005 is the most distant soft landing ever achieved by a human-made spacecraft.",
+    "Titan's orange atmospheric haze is a thick soup of complex organic molecules called tholins — thought to be precursors to the building blocks of life.",
+    "Titan's north polar seas, including Kraken Mare, together cover about 691,000 km² — comparable to the Caspian and Black Seas combined.",
+    "In July 2025, researchers identified that cell-like compartments could form naturally in Titan's hydrocarbon lakes, suggesting prebiotic chemistry.",
+    "NASA's Dragonfly mission, launching in 2028, will fly a nuclear-powered helicopter drone across Titan's surface.",
+    "Energy from the Sun should convert all methane in Titan's atmosphere within 50 million years — far shorter than the Solar System's age — meaning there must be a replenishing interior source."
+  ],
+  "MIRANDA": [
+    "Miranda has what may be the tallest cliff in the Solar System: Verona Rupes, a scarp roughly 20 km high — if you stepped off the edge, the fall would last about 12 minutes.",
+    "Miranda's surface is a baffling patchwork of ancient cratered plains, young ridged 'coronae,' and enormous canyons — more geological variety than almost anywhere else in the Solar System.",
+    "The three coronae on Miranda do not resemble any feature on any other known body, and their origin remains debated.",
+    "Miranda has an unusually high orbital inclination — possibly because it was once captured into a resonance with another moon that heated and deformed it.",
+    "A 2024 study suggested Miranda may have had a liquid ocean beneath its surface within the last 100–500 million years.",
+    "All close-up knowledge of Miranda comes from a single 24-hour window in January 1986, when Voyager 2 flew past.",
+    "Miranda is the least dense of Uranus's five major moons, composed of more than 60% water ice.",
+    "Because Uranus orbits almost on its side, Miranda's poles each experience 42 years of continuous sunlight followed by 42 years of total darkness."
+  ],
+  "TITANIA": [
+    "Titania has enormous canyon-like grabens — with Messina Chasma running almost 1,500 km — formed when Titania's interior expanded as water froze, cracking the entire crust.",
+    "Titania is named after the Queen of the Fairies in Shakespeare's A Midsummer Night's Dream.",
+    "Because Uranus orbits almost on its side, Titania spends 42 years in continuous darkness at each pole, followed by 42 years of unbroken sunlight.",
+    "Carbon dioxide has been detected on Titania's trailing hemisphere, likely produced by radiation breaking down organic compounds in the ice.",
+    "Titania's surface is less heavily cratered than Oberon's, indicating it experienced a resurfacing event, possibly through cryovolcanism.",
+    "Recent modeling suggests Titania almost certainly has an active subsurface liquid ocean today.",
+    "Only about 40% of Titania's surface has ever been photographed, all during a single 1986 Voyager 2 flyby.",
+    "Titania is the highest-priority science target in the recommendation for a Uranus Orbiter and Probe mission."
+  ],
+  "OBERON": [
+    "Oberon is the most heavily cratered large moon of Uranus, with virtually every square kilometer hit at least once in 4.5 billion years.",
+    "Many of Oberon's largest craters — including Hamlet, Othello, and Macbeth — have dark floors, possibly from cryovolcanic lava that later froze.",
+    "Oberon orbits partially outside Uranus's magnetosphere, meaning its leading hemisphere is hit directly by the solar wind.",
+    "A mountain-like peak roughly 11 km tall was spotted near Oberon's limb in Voyager images.",
+    "Oberon and Titania were discovered on the same night — January 11, 1787 — by William Herschel.",
+    "Oberon's leading hemisphere is significantly redder than its trailing hemisphere, likely because reddish material accumulates on the orbital leading side.",
+    "Because Uranus orbits the Sun nearly on its side, Oberon's poles each endure 42 years of complete darkness followed by 42 years of constant sunlight.",
+    "Recent analysis indicates that Oberon, like Titania, most likely harbors a subsurface liquid ocean today."
+  ],
+  "TRITON": [
+    "Triton orbits Neptune backward — opposite to the planet's rotation — almost certainly because it was captured from the Kuiper Belt rather than forming in place.",
+    "Triton holds one of the coldest surface temperatures ever recorded in the Solar System: 38 K (−235°C), yet it has active geysers erupting nitrogen gas 8 km into the sky.",
+    "Triton's geysers may be driven by a 'solid greenhouse effect': sunlight penetrates transparent nitrogen ice and pressurized gas bursts through.",
+    "Triton's retrograde orbit is doomed: in roughly 3.6 billion years it will cross Neptune's Roche limit and either crash into the planet or be torn into a ring.",
+    "Triton's surface includes some of the youngest terrain in the Solar System — some regions estimated at only 6 million years old.",
+    "Triton's 'cantaloupe terrain' — rounded pits 30–40 km across resembling a melon skin — is found nowhere else in the Solar System.",
+    "Triton's capture by Neptune likely disrupted and ejected most of Neptune's original moon system.",
+    "Triton accounts for more than 99.5% of all mass orbiting Neptune — including the planet's rings and its 15 other known moons.",
+    "Triton is thought to be closely related to Pluto: nearly the same size, the same mixture of ices, and possibly originating in the same region of the outer Solar System."
+  ],
+  "CHARON": [
+    "Charon and Pluto are mutually tidally locked — each always shows the same face to the other — and their shared center of mass lies in empty space between the two bodies.",
+    "Charon's dark reddish north polar cap, nicknamed 'Mordor,' is made of tholins that escaped Pluto's atmosphere and traveled 19,000 km through space before freezing onto Charon's cold pole.",
+    "Charon is larger relative to its parent body than any other moon in the Solar System — half Pluto's diameter and an eighth its mass.",
+    "Serenity Chasma on Charon is part of a tectonic belt stretching at least 1,000 km around its equator, and Argo Chasma may reach 9 km deep.",
+    "Charon is believed to have formed from a giant impact on Pluto 4.5 billion years ago — similar to how Earth's Moon formed.",
+    "New Horizons found evidence that Charon once had a subsurface ocean that drove massive cryovolcanic resurfacing before the ocean froze.",
+    "Charon's surface is dominated by water ice rather than the nitrogen and methane ices that coat Pluto.",
+    "Charon was named after its discoverer James Christy's wife Charlene — nicknamed 'Char' — though Charon was also the ferryman of the dead in Greek mythology.",
+    "A science fiction writer in a 1940 novel invented three moons of Pluto and named them Charon, Styx, and Cerberus — three of the five moons later discovered bear almost exactly these names."
+  ]
+};
