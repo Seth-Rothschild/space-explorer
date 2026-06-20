@@ -429,25 +429,132 @@ function get_near_intensity(p) {
     return 1 - (dist - touch) / (far - touch);
 }
 
+var EARTH_DIAMETER_KM = 12742;
+var EARTH_YEAR_DAYS = 365.25;
+var EARTH_MOON_DIST_KM = 384400;
+
+function format_size(diameter_km) {
+    var ratio = diameter_km / EARTH_DIAMETER_KM;
+    if (ratio >= 0.05) return ratio.toFixed(2) + "× Earth";
+    if (diameter_km >= 100) return Math.round(diameter_km) + " km";
+    return diameter_km.toFixed(1) + " km";
+}
+
+function format_period(days) {
+    var abs = Math.abs(days);
+    if (abs >= EARTH_YEAR_DAYS * 2) return (abs / EARTH_YEAR_DAYS).toFixed(1) + " yrs";
+    if (abs >= EARTH_YEAR_DAYS) return (abs / EARTH_YEAR_DAYS).toFixed(2) + " yrs";
+    if (abs >= 1) return abs.toFixed(1) + " days";
+    return (abs * 24).toFixed(1) + " hrs";
+}
+
+function format_rotation(days) {
+    var str = format_period(days);
+    return days < 0 ? str + " ↺" : str;
+}
+
+function format_moon_dist(km) {
+    var ratio = km / EARTH_MOON_DIST_KM;
+    if (ratio < 0.5) return (ratio * 100).toFixed(0) + "% of Earth-Moon distance";
+    return ratio.toFixed(2) + "× Earth-Moon distance";
+}
+
+function build_meta_chips(name) {
+    var meta = (typeof METADATA !== "undefined") ? METADATA[name] : null;
+    if (!meta) return [];
+    var chips = [];
+
+    if (meta.diameter_km) {
+        chips.push(["size", format_size(meta.diameter_km)]);
+    }
+    if (meta.distance_from_sun_au) {
+        chips.push(["from Sun", meta.distance_from_sun_au + " AU"]);
+    }
+    if (meta.orbit_radius_km) {
+        chips.push(["from " + (meta.parent_body || "planet"), format_moon_dist(meta.orbit_radius_km)]);
+    }
+    if (meta.orbital_period_days) {
+        var period_label = (meta.parent_body && meta.parent_body !== "Sun") ? "orbit" : "year";
+        chips.push([period_label, format_period(meta.orbital_period_days)]);
+    }
+    if (meta.rotation_period_days) {
+        chips.push(["day", format_rotation(meta.rotation_period_days)]);
+    }
+    if (meta.surface_temp_c !== undefined && meta.instance_of !== "star") {
+        chips.push(["temp", meta.surface_temp_c + "°C"]);
+    }
+    return chips;
+}
+
 function show_fact_panel(name, color) {
     current_fact_name = name;
     var facts = (typeof FUN_FACTS !== "undefined") ? FUN_FACTS[name] : null;
     current_fact_index = facts ? Math.floor(Math.random() * facts.length) : 0;
     var panel = document.getElementById("fact-panel");
     var name_el = document.getElementById("fact-name");
+    var type_el = document.getElementById("fact-type");
     var text_el = document.getElementById("fact-text");
     var link_el = document.getElementById("wiki-link");
+    var meta_el = document.getElementById("meta-panel");
+
     name_el.textContent = name;
     name_el.style.color = color || "#FFD700";
     name_el.style.textShadow = "0 0 12px " + (color || "#FFD700");
+
+    var meta = (typeof METADATA !== "undefined") ? METADATA[name] : null;
+    var origin = (typeof NAME_ORIGINS !== "undefined") ? NAME_ORIGINS[name] : null;
+
+    var type_parts = [];
+    if (meta) {
+        var type_str = meta.instance_of.charAt(0).toUpperCase() + meta.instance_of.slice(1);
+        if (meta.parent_body && meta.parent_body !== "Sun") {
+            type_str += " of " + meta.parent_body;
+        }
+        type_parts.push(type_str);
+    }
+    type_el.textContent = type_parts.join(" · ");
+
+    var origin_el = document.getElementById("fact-origin");
+    origin_el.innerHTML = "";
+    document.getElementById("origin-toggle").textContent = "Origin";
+    if (origin) {
+        var origin_text = document.createTextNode(origin.text);
+        origin_el.appendChild(origin_text);
+        if (meta && meta.name_origin_url) {
+            var origin_link = document.createElement("a");
+            origin_link.href = meta.name_origin_url;
+            origin_link.target = "_blank";
+            origin_link.rel = "noopener";
+            origin_link.textContent = " Learn more about the deity ↗";
+            origin_el.appendChild(origin_link);
+        }
+    }
+
     var wiki_url = (typeof WIKI_URLS !== "undefined") ? WIKI_URLS[name] : null;
     if (wiki_url) {
         link_el.href = wiki_url;
-        link_el.textContent = wiki_url;
+        link_el.textContent = "Full Wikipedia article ↗";
         link_el.style.display = "block";
     } else {
         link_el.style.display = "none";
     }
+
+    meta_el.innerHTML = "";
+    var chips = build_meta_chips(name);
+    for (var i = 0; i < chips.length; i++) {
+        var chip = document.createElement("div");
+        chip.className = "meta-chip";
+        var lbl = document.createElement("span");
+        lbl.className = "meta-label";
+        lbl.textContent = chips[i][0];
+        var val = document.createElement("span");
+        val.className = "meta-value";
+        val.textContent = chips[i][1];
+        chip.appendChild(lbl);
+        chip.appendChild(val);
+        meta_el.appendChild(chip);
+    }
+
     if (facts && facts.length > 0) {
         text_el.textContent = facts[current_fact_index];
         panel.style.visibility = "visible";
@@ -651,6 +758,12 @@ function resize_canvas() {
 
 build_nav_buttons();
 window.addEventListener("resize", resize_canvas);
+document.getElementById("origin-toggle").addEventListener("click", function () {
+    var text_el = document.getElementById("fact-text");
+    var origin_el = document.getElementById("fact-origin");
+    text_el.innerHTML = origin_el.innerHTML;
+});
+
 document.getElementById("fact-next").addEventListener("click", function () {
     advance_fact();
     fact_cycle_timer = 0;

@@ -27,6 +27,9 @@ var PLANET_DATA = [
           { name: "DEIMOS",  radius: 3, color: "#B09080", orbit_radius: 42, period: 8,  init_angle: 3.0 },
       ] },
 
+    { name: "VESTA",   radius: 5,  color: "#9898A0", glow: "#B8B8C0", type: "dwarf",
+      orbit_a: 730,  eccentricity: 0.09, orbit_tilt: 0.95, period_years: 3.63,   init_angle: 3.0 },
+
     { name: "CERES",   radius: 5,  color: "#A08878", glow: "#C0A898", type: "dwarf",
       orbit_a: 780,  eccentricity: 0.08, orbit_tilt: 1.40, period_years: 4.6,    init_angle: 2.0 },
 
@@ -44,15 +47,21 @@ var PLANET_DATA = [
       moon_data: [
           { name: "MIMAS",     radius: 4, color: "#C0B8B0", orbit_radius: 78,  period: 8,  init_angle: 2.0 },
           { name: "ENCELADUS", radius: 4, color: "#EEF4EE", orbit_radius: 90,  period: 12, init_angle: 4.5 },
-          { name: "TITAN",     radius: 6, color: "#E0A830", orbit_radius: 110, period: 25, init_angle: 3.0 },
+          { name: "TETHYS",    radius: 5, color: "#F0ECE8", orbit_radius: 100, period: 17, init_angle: 1.2 },
+          { name: "DIONE",     radius: 5, color: "#D8D0C8", orbit_radius: 111, period: 22, init_angle: 5.0 },
+          { name: "TITAN",     radius: 6, color: "#E0A830", orbit_radius: 125, period: 30, init_angle: 3.0 },
+          { name: "RHEA",      radius: 5, color: "#C8C0B8", orbit_radius: 148, period: 46, init_angle: 0.8 },
+          { name: "IAPETUS",   radius: 5, color: "#908070", orbit_radius: 195, period: 82, init_angle: 3.5 },
       ] },
 
     { name: "URANUS",  radius: 22, color: "#7FDBCA", glow: "#AFFFEF",
       orbit_a: 2250, eccentricity: 0.08, orbit_tilt: 0.50, period_years: 84.01,  init_angle: 0.9,
       moon_data: [
           { name: "MIRANDA", radius: 4, color: "#B0A0C0", orbit_radius: 42, period: 10, init_angle: 1.5 },
-          { name: "TITANIA", radius: 5, color: "#C0B0D0", orbit_radius: 65, period: 25, init_angle: 3.8 },
-          { name: "OBERON",  radius: 5, color: "#908090", orbit_radius: 80, period: 35, init_angle: 0.4 },
+          { name: "ARIEL",   radius: 5, color: "#D8D0D0", orbit_radius: 53, period: 16, init_angle: 4.2 },
+          { name: "UMBRIEL", radius: 4, color: "#686060", orbit_radius: 62, period: 22, init_angle: 0.9 },
+          { name: "TITANIA", radius: 5, color: "#C0B0D0", orbit_radius: 74, period: 30, init_angle: 3.8 },
+          { name: "OBERON",  radius: 5, color: "#908090", orbit_radius: 88, period: 40, init_angle: 0.4 },
       ] },
 
     { name: "NEPTUNE", radius: 20, color: "#3B5BDB", glow: "#6080FF",
@@ -75,6 +84,27 @@ var PLANET_DATA = [
 
     { name: "ERIS",     radius: 6,  color: "#E8E0D0", glow: "#F8F0E0", type: "dwarf",
       orbit_a: 4200, eccentricity: 0.44, orbit_tilt: 2.10, period_years: 558.8,  init_angle: 5.0 },
+
+    { name: "ORCUS",    radius: 5,  color: "#B0A8C0", glow: "#C8C0D8", type: "dwarf",
+      orbit_a: 3340, eccentricity: 0.23, orbit_tilt: 2.80, period_years: 246.1,  init_angle: 4.5 },
+
+    { name: "QUAOAR",   radius: 5,  color: "#C07858", glow: "#D89870", type: "dwarf",
+      orbit_a: 3650, eccentricity: 0.04, orbit_tilt: 0.30, period_years: 288.8,  init_angle: 1.2 },
+
+    { name: "ARROKOTH", radius: 4,  color: "#C09878", glow: "#D8B090", type: "dwarf",
+      orbit_a: 3760, eccentricity: 0.04, orbit_tilt: 2.70, period_years: 297.8,  init_angle: 0.7 },
+
+    { name: "GONGGONG", radius: 5,  color: "#C85040", glow: "#E07050", type: "dwarf",
+      orbit_a: 4100, eccentricity: 0.50, orbit_tilt: 1.50, period_years: 547.0,  init_angle: 3.2 },
+
+    { name: "SEDNA",    radius: 5,  color: "#D03828", glow: "#E85840", type: "dwarf",
+      orbit_a: 4600, eccentricity: 0.84, orbit_tilt: 0.70, period_years: 11400,  init_angle: 5.5 },
+
+    { name: "FAROUT",   radius: 4,  color: "#E0B8A8", glow: "#F0C8B8", type: "dwarf",
+      orbit_a: 5000, eccentricity: 0.53, orbit_tilt: 1.80, period_years: 737.0,  init_angle: 1.5 },
+
+    { name: "FARFAROUT",radius: 4,  color: "#C8C0B8", glow: "#E0D8D0", type: "dwarf",
+      orbit_a: 5400, eccentricity: 0.65, orbit_tilt: 0.50, period_years: 700.0,  init_angle: 3.8 },
 ];
 
 var STARS = [];

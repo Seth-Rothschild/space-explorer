@@ -1,0 +1,120 @@
+SOURCE: Wikipedia — "Iapetus (moon)"
+URL: https://en.wikipedia.org/wiki/Iapetus_(moon)
+AUTHORS: Wikipedia contributors
+LICENSE: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+========================================================================
+
+Iapetus () is the outermost of Saturn's large moons. With an estimated diameter of 1,469 km (913 mi), it is the third-largest moon of Saturn and the eleventh-largest in the Solar System. Named after the Titan Iapetus from Greek mythology, the moon was discovered in 1671 by Giovanni Domenico Cassini.
+A relatively low-density body composed mostly of ice, Iapetus is home to several distinctive and unusual features, such as a striking difference in coloration between its dark leading hemisphere and its bright trailing hemisphere, as well as a massive equatorial ridge that runs three-quarters of the way around the moon.
+
+
+History
+
+
+Discovery
+
+Iapetus was discovered by Giovanni Domenico Cassini, an Italian-born French astronomer, in October 1671. It was the first moon that Cassini discovered; the second moon of Saturn to be discovered after Christiaan Huygens spotted Titan 16 years prior in 1655; and the sixth extraterrestrial moon to be discovered in human history.
+Cassini discovered Iapetus when the moon was on the western side of Saturn, but when he tried viewing it on the eastern side some months later, he was unsuccessful. This was also the case the following year, when he was again able to observe it on the western side, but not the eastern side. Cassini finally observed Iapetus on the eastern side in 1705 with the help of an improved telescope, finding it two magnitudes dimmer on that side.
+Cassini correctly surmised that Iapetus has a bright hemisphere and a dark hemisphere, and that it is tidally locked, always keeping the same face towards Saturn. This means that the bright hemisphere is visible from Earth when Iapetus is on the western side of Saturn, and that the dark hemisphere is visible when Iapetus is on the eastern side.
+
+
+Name
+Iapetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope, in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn); and Giants, the massive but lesser relatives of the Titans who sided with the Titans against Zeus and the Olympian Gods.
+The name has a largely obsolete variant, Japetus ,
+with an adjectival form Japetian.
+These occurred because there was no distinction between the letters ⟨i⟩ and ⟨j⟩ in Latin, and authors rendered them differently.
+When first discovered, Iapetus was among the four Saturnian moons labelled the Sidera Lodoicea by their discoverer Giovanni Cassini after King Louis XIV (the other three were Tethys, Dione and Rhea). However, astronomers fell into the habit of referring to them using Roman numerals, with Iapetus being Saturn V because it was the fifth known Saturnian moon in order of distance from Saturn at that time. Once Mimas and Enceladus were discovered in 1789, the numbering scheme was extended and Iapetus became Saturn VII. With the discovery of Hyperion in 1848, Iapetus became Saturn VIII, which is still its Roman numerical designation today. Geological features on Iapetus are generally named after characters and places from the French epic poem The Song of Roland.
+Planetary moons other than Earth's were never given symbols in the astronomical literature. Denis Moskowitz, a software engineer who designed most of the dwarf planet symbols, proposed a Greek iota (the initial of Iapetus) combined with the crook of the Saturn symbol as the symbol of Iapetus (). This symbol is not widely used.
+
+
+Orbit
+
+The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It also has the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see. 
+The cause of this highly inclined orbit is unknown; however, the moon is not likely to have been captured. One suggestion for the cause of Iapetus's orbital inclination is an encounter between Saturn and another planet in the distant past. The inclination of Iapetus to Saturn’s equator varies between 5 and 21° over Iapetus’s nodal precession period of about 3400 years.
+Iapetus is sometimes considered an irregular satellite, though it is usually grouped in with the regular satellites, or specifically excluded from definitions of an irregular satellite. Regular satellites, which are closer to the planet, have their orbital precession primarily controlled by the equatorial bulge of their primary planet, while irregular satellites, which are farther out, have their orbital precession primarily controlled by interactions with the Sun's gravity. The boundary between these two regimes is called the Laplace radius, which Iapetus is just outside of.
+Despite orbiting on average 2.4 times farther from Saturn than Hyperion, the next moon inward, Iapetus is tidally locked while Hyperion is not, making it the most distant tidally locked moon in the Solar System.
+
+
+Formation
+The moons of Saturn are typically thought to have formed through co-accretion, a similar process to that believed to have formed the planets in the Solar System. As the young gas giants formed, they were surrounded by discs of material that gradually coalesced into moons. However, a proposed model on the formation of Titan suggests that Titan was instead formed in a series of giant impacts between pre-existing moons. Iapetus and Rhea are thought to have formed from part of the debris of these collisions. More-recent studies, however, suggest that all of Saturn's moons inward of Titan are no more than 100 million years old; thus, Iapetus is unlikely to have formed in the same series of collisions as Rhea and all the other moons inward of Titan, and—along with Titan—may be a primordial satellite.
+
+
+Physical characteristics
+
+The low density of Iapetus indicates that it is mostly composed of ice, with only a small (~20%) amount of rocky materials.
+Unlike most of the large moons, its overall shape is neither spherical nor ellipsoid, but has a bulging waistline and squashed poles. Its unique equatorial ridge (see below) is so high that it visibly distorts Iapetus's shape even when viewed from a distance. These features often lead it to be characterized as walnut-shaped.
+Iapetus is heavily cratered, and Cassini images have revealed large impact basins, at least five of which are over 350 km (220 mi) wide. The largest, Turgis, has a diameter of 580 km (360 mi); its rim is extremely steep and includes a scarp about 15 km (9.3 mi) high.
+Iapetus is known to support long-runout landslides or sturzstroms, possibly supported by ice sliding.
+
+
+Two-tone coloration
+
+The difference in colouring between the two Iapetian hemispheres is striking. The leading hemisphere and sides are dark (albedo 0.03–0.05) with a slight reddish-brown coloring, while most of the trailing hemisphere and poles are bright (albedo 0.5–0.6, almost as bright as Europa). Thus, the apparent magnitude of the trailing hemisphere is around 10.2, whereas that of the leading hemisphere is around 11.9—beyond the capacity of the best telescopes in the 17th century. The dark region is named Cassini Regio, and the bright region is divided into Roncevaux Terra north of the equator, and Saragossa Terra south of it. Although Roncevaux and Saragossa Terrae look similar to each other, the latter exhibits a slightly reddish color. The original dark material is believed to have come from outside Iapetus, but now it consists principally of lag from the sublimation of ice from the warmer areas of the moon's surface, further darkened by exposure to sunlight. It contains organic compounds similar to the substances found in primitive meteorites or on the surfaces of comets; Earth-based observations have shown it to be carbonaceous, and it probably includes cyano-compounds such as frozen hydrogen cyanide polymers.
+
+Images from the Cassini orbiter, which passed within 1,227 km (762 miles), show that both Cassini Regio and the Terra's are heavily cratered. The color dichotomy of scattered patches of light and dark material in the transition zone between Cassini Regio and the bright areas exists at very small scales, down to the imaging resolution of 30 metres (98 ft). There is dark material filling in low-lying regions, and light material on the weakly illuminated pole-facing slopes of craters, but no shades of grey. The dark material is a very thin layer, only a few tens of centimeters (approx. one foot) thick at least in some areas, according to Cassini radar imaging and the fact that very small meteor impacts have punched through to the ice underneath.
+
+Because of its slow rotation of 79 days (equal to its revolution and the longest in the Saturnian system), Iapetus would have had the warmest daytime surface temperature and coldest nighttime temperature in the Saturnian system even before the development of the color contrast; near the equator, heat absorption by the dark material results in a daytime temperatures of 129 K (−144 °C) in the dark Cassini Regio compared to 113 K (−160 °C) in the bright regions. The difference in temperature means that ice preferentially sublimates from Cassini Regio, and deposits in the bright areas and especially at the even colder poles. Over geologic time scales, this would further darken Cassini Regio and brighten the rest of Iapetus, creating a positive feedback thermal runaway process of ever greater contrast in albedo, ending with all exposed ice being lost from Cassini Regio. It is estimated that over a period of one billion years at current temperatures, dark areas of Iapetus would lose about 20 meters (70 ft) of ice to sublimation, while the bright regions would lose only 10 cm (4 in), not considering the ice transferred from the dark regions. This model explains the distribution of light and dark areas, the absence of shades of grey, and the thinness of the dark material covering Cassini Regio. The redistribution of ice is facilitated by Iapetus's weak gravity, which means that at ambient temperatures a water molecule can migrate from one hemisphere to the other in just a few hops.
+However, a separate process of color segregation would be required to get the thermal feedback started. The initial dark material is thought to have been debris blasted by meteors off small outer moons in retrograde orbits and swept up by the leading hemisphere of Iapetus. The core of this model is some 30 years old, and was revived by the September 2007 flyby.
+
+Light debris outside of Iapetus's orbit, either knocked free from the surface of a moon by micrometeoroid impacts or created in a collision, would spiral in as its orbit decays. It would have been darkened by exposure to sunlight. A portion of any such material that crossed Iapetus's orbit would have been swept up by its leading hemisphere, coating it; once this process created a modest contrast in albedo, and so a contrast in temperature, the thermal feedback described above would have come into play and exaggerated the contrast. In support of the hypothesis, simple numerical models of the exogenic deposition and thermal water redistribution processes can closely predict the two-toned appearance of Iapetus. A subtle color dichotomy between Iapetus's leading and trailing hemispheres, with the former being more reddish, can in fact be observed in comparisons between both bright and dark areas of the two hemispheres. In contrast to the elliptical shape of Cassini Regio, the color contrast closely follows the hemisphere boundaries; the gradation between the differently colored regions is gradual, on a scale of hundreds of kilometers. The next moon inward from Iapetus, chaotically rotating Hyperion, also has an unusual reddish color.
+The largest reservoir of such infalling material is Phoebe, the largest of the outer moons. Although Phoebe's composition is closer to that of the bright hemisphere of Iapetus than the dark one, dust from Phoebe would only be needed to establish a contrast in albedo, and presumably would have been largely obscured by later sublimation. The discovery of a tenuous disk of material in the plane of and just inside Phoebe's orbit was announced on 6 October 2009, supporting the model. The disk extends from 128 to 207 times the radius of Saturn, while Phoebe orbits at an average distance of 215 Saturn radii. It was detected with the Spitzer Space Telescope.
+
+
+Overall shape
+Current triaxial measurements of Iapetus give it radial dimensions of 746 km × 746 km × 712 km (464 mi × 464 mi × 442 mi), with a mean radius of 734.5 ± 2.8 km (456.4 ± 1.7 mi). However, these measurements may be inaccurate on the kilometer scale as Iapetus's entire surface has not yet been imaged in high enough resolution. The observed oblateness would be consistent with hydrostatic equilibrium if Iapetus had a rotational period of approximately 16 hours, but it does not; its current rotation period is 79 days. A possible explanation for this is that the shape of Iapetus was frozen by formation of a thick crust shortly after its formation, while its rotation continued to slow afterwards due to tidal dissipation, until it became tidally locked.
+
+
+Equatorial ridge
+
+A further mystery of Iapetus is the equatorial ridge that runs along the center of Cassini Regio, about 1,300 km (810 mi) long, 20 km (12 mi) wide, and 13 km (8.1 mi) high. It was discovered when the Cassini spacecraft imaged Iapetus on December 31, 2004, although its existence had been inferred from the moon's polar images by Voyager 2. Peaks in the ridge rise more than 20 km (12 mi) above the surrounding plains, making them some of the tallest mountains in the Solar System. The ridge forms a complex system including isolated peaks, segments of more than 200 km (120 mi) and sections with three near parallel ridges. Within the bright regions there is no ridge, but there are a series of isolated 10 km (6.2 mi) peaks along the equator. The ridge system is heavily cratered, indicating that it is ancient. The prominent equatorial bulge gives Iapetus a walnut-like appearance.
+
+It is not clear how the ridge formed. One difficulty is to explain why it follows the equator almost perfectly. There are many hypotheses, but none explain why the ridge is confined to Cassini Regio. Theories include that the ridge is a remnant of Iapetus's oblate shape during its early life, that it was created by the collapse of a ring system, that it was formed by icy material welling from Iapetus's interior, or that it is a result of convective overturn.
+
+
+Exploration
+
+The first spacecraft to visit Saturn, Pioneer 11, did not provide any images of Iapetus and it came no closer than 1,030,000 km (640,000 mi) from the moon. Nonetheless, Pioneer 11 was humanity's first attempt to obtain direct measurements from the objects within the Saturnian system.
+Voyager 1 arrived at Saturn on November 12, 1980, and it became the first probe to return pictures of Iapetus that clearly show the moon's two-tone appearance from a distance of 2,480,000 km (1,540,000 mi) as it was exiting the Saturnian system.
+
+Voyager 2 became the next probe to visit Saturn on August 22, 1981, and made its closest approach to Iapetus at a distance of 909,000 km (565,000 mi). It took photos of Iapetus's north pole as it entered the Saturnian system - opposite the approach direction of Voyager 1.
+The latest probe to visit Iapetus was the Cassini orbiter which went into orbit around Saturn starting on July 1, 2004. Iapetus has been imaged many times from moderate distances by Cassini but its great distance from Saturn makes close observation difficult.
+Cassini made its first targeted flyby of Iapetus on Dec. 31, 2004, at a distance of 123,400 km (76,700 mi) around the time when the spacecraft was settling in its orbit around Saturn. Cassini did not cross Iapetus's orbit when it flew by and remained inside the moon's orbit. Cassini's subsequent flybys of Titan would make the spacecraft's orbit smaller, preventing Cassini from flying close to Iapetus for months.
+Cassini made a second flyby of Iapetus on November 12, 2005, at a distance of 415,000 km (258,000 mi), also without crossing the moon's orbit.
+Cassini then made a third and more distant flyby of Iapetus on January 22, 2006, at a distance of 1,300,000 km (810,000 mi).
+The fourth flyby happened on April 8, 2006, at a distance of approximately 866,000 km (538,000 mi), and this time, Cassini crossed Iapetus's orbit. After this, Cassini's orbit was made smaller once again, preventing the probe from approaching Iapetus for more than a year this time.
+Cassini's closest flyby of Iapetus happened on September 10, 2007, at a minimum range of 1,227 km (762 mi). It approached Iapetus from its night side.
+After this encounter, Cassini made no further targeted flybys of Iapetus.
+
+
+See also
+Former classification of planets
+Iapetus in fiction
+List of tallest mountains in the Solar System
+Lists of astronomical objects
+Subsatellite
+
+
+Notes
+
+
+References
+
+
+External links
+
+Cassini mission page – Iapetus
+Discussion of Iapetus dated October 2007
+Iapetus Profile at NASA's Solar System Exploration site
+The Planetary Society: Iapetus
+Google Iapetus 3D, interactive map of the moon
+NASA Astronomy Picture of the Day: Saturn's Iapetus: Moon with a Strange Surface (1 February 2005)
+Mirror Objects in the Solar System?—refereed article discussing the speculative mirror matter, and Iapetus in this context
+A Moon with a View—Richard C. Hoagland's imaginative discussion of Iapetus's oddities
+New attempts to crack Saturn's 'walnut' moon—equatorial ridge formation theories
+Cassini images of Iapetus Archived 2011-07-25 at the Wayback Machine
+Images of Iapetus at JPL's Planetary Photojournal
+Movie of Iapetus's rotation at the National Oceanic and Atmospheric Administration site
+Iapetus basemap (May 2008) from Cassini images Archived 2010-02-17 at the Wayback Machine
+Iapetus atlas (October 2008) from Cassini images
+Iapetus nomenclature and Iapetus map with feature names from the USGS planetary nomenclature page
+Flight over Iapetus (video)

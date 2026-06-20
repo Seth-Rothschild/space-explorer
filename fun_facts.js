@@ -315,6 +315,67 @@ var FUN_FACTS = {
     "Triton accounts for more than 99.5% of all mass orbiting Neptune — including the planet's rings and its 15 other known moons.",
     "Triton is thought to be closely related to Pluto: nearly the same size, the same mixture of ices, and possibly originating in the same region of the outer Solar System."
   ],
+  "TETHYS": [
+    "Tethys is made almost entirely of water ice — its density of 0.98 g/cm³ makes it less dense than liquid water, the lowest of any major moon in the Solar System.",
+    "Tethys was discovered in 1684 by Giovanni Cassini, the same night he found Dione.",
+    "The Odysseus crater on Tethys is about 400 km wide — nearly two-fifths of the moon's entire diameter — yet the floor has relaxed so flat it barely shows as a dent.",
+    "Ithaca Chasma is a valley on Tethys about 100 km wide and 3 km deep that runs nearly three-quarters of the way around the moon — about 2,000 km long.",
+    "Ithaca Chasma likely formed when liquid water inside Tethys froze, expanded, and cracked the crust — the entire moon split open as it solidified.",
+    "Tethys has two tiny companion moons called Telesto and Calypso that orbit at its Lagrange points, riding 60° ahead of and behind it in the same orbit, like hitchhikers.",
+    "Tethys is the second most reflective moon of Saturn, sandblasted to a shine by tiny ice particles sprayed out by Enceladus's geysers.",
+    "Temperature maps from Cassini revealed a Pac-Man shaped warm region on Tethys's surface — an echo of energetic electrons from Saturn's magnetosphere hitting it at the equator.",
+    "Named after the Titaness Tethys, a sea goddess in Greek mythology and sister of Saturn's equivalent Kronos."
+  ],
+  "DIONE": [
+    "Dione was discovered in 1684 by Giovanni Cassini, who named it one of the 'Stars of Louis' after King Louis XIV of France.",
+    "Dione is locked in a 1:2 orbital resonance with Enceladus — for every orbit Dione completes, Enceladus completes exactly two. This resonance is what keeps Enceladus's interior hot enough for its geysers.",
+    "Voyager images showed mysterious 'wispy features' on Dione's trailing hemisphere. Cassini revealed they are not ice deposits at all — they are enormous ice cliffs hundreds of meters high formed by tectonic fractures.",
+    "Dione may have a subsurface liquid ocean: Cassini detected a 1–2 km high ridge on the surface whose weight depresses the crust, a pattern best explained by warm ice over a hidden sea.",
+    "Dione has two trojan moons — Helene and Polydeuces — riding 60° ahead and behind it in its own orbit, like escorts.",
+    "In 2010, Cassini detected a thin exosphere of oxygen ions around Dione — the oxygen split from water ice by Saturn's powerful radiation belts.",
+    "Dione's heavily cratered trailing hemisphere is darker than its leading hemisphere, but the bright ice cliffs slice across it in dramatic white streaks visible from space.",
+    "Named after the Titaness Dione from Greek mythology, who in some traditions was the mother of Aphrodite."
+  ],
+  "RHEA": [
+    "Rhea was discovered on 23 December 1672 by Giovanni Cassini — it was his first moon discovery and only the third moon found around Saturn.",
+    "Rhea is Saturn's second-largest moon and the smallest body in the Solar System confirmed to be in hydrostatic equilibrium — rounded by its own gravity.",
+    "Rhea is about 75% water ice and 25% rock by mass, with a surface area roughly equal to that of Australia.",
+    "In 2008, NASA announced that Cassini may have detected a faint ring system around Rhea — which would make it the first moon in the Solar System ever found to have its own rings, though this was not confirmed.",
+    "Rhea has both oxygen and carbon dioxide in a thin exosphere, the oxygen produced by Saturn's radiation splitting the surface ice.",
+    "Inktomi crater on Rhea, nicknamed 'The Splat,' is surrounded by bright rays of ejecta extending up to 400 km in every direction — one of the youngest and most prominent craters on any inner moon of Saturn.",
+    "Rhea's two largest impact basins — each roughly 400–500 km across — sit on the hemisphere facing away from Saturn.",
+    "Named after the Titan Rhea from Greek mythology, mother of the first Olympian gods and wife of Kronos, the Greek equivalent of Saturn."
+  ],
+  "IAPETUS": [
+    "Iapetus was discovered in October 1671 by Giovanni Cassini — the first moon he ever found, and only the sixth moon discovered by humans in history.",
+    "Iapetus has one of the most striking appearances in the Solar System: its leading hemisphere is pitch black (albedo 0.03, like coal) while its trailing hemisphere is bright white (albedo 0.5, like snow).",
+    "The dark material on Iapetus is only a few tens of centimeters thick in some places — a paper-thin coating on top of bright ice underneath, punched through by small impacts.",
+    "Iapetus has a massive equatorial ridge 1,300 km long, 20 km wide, and up to 13 km high — one of the tallest mountain ranges in the Solar System, making the moon look like a walnut.",
+    "The dark coating on Iapetus started as debris swept off outer moons (especially Phoebe) landing on its leading side. Then a thermal runaway took over: dark areas warmed up, ice evaporated, and the contrast intensified over billions of years.",
+    "Iapetus rotates once every 79 days — the longest rotation of any moon in Saturn's system — and is the most distant tidally locked moon in the Solar System.",
+    "Cassini correctly guessed in 1671 that Iapetus is tidally locked and two-toned — he could only see it on one side of Saturn and it kept disappearing on the other.",
+    "Named after the Titan Iapetus from Greek mythology, father of Prometheus and Atlas. Geological features are named after characters from the French epic The Song of Roland."
+  ],
+  "ARIEL": [
+    "Ariel was discovered on 24 October 1851 by William Lassell, on the same night he found Umbriel — two new moons of Uranus discovered in a single observation.",
+    "Ariel is named after two different literary characters at once: the airy spirit in Shakespeare's The Tempest, and the lead sylph in Alexander Pope's poem The Rape of the Lock.",
+    "Ariel is the most reflective of all Uranus's moons, with a surface covered in relatively fresh water ice.",
+    "Ariel's surface is carved by enormous canyons — chasmata — up to 50 km wide, formed when the moon's interior expanded as water froze, cracking the crust from inside.",
+    "The floors of many of Ariel's canyons are convex and unusually smooth, suggesting they were flooded by slushy water-ammonia erupting from inside in a process called cryovolcanism.",
+    "A 2025 study found that Ariel's network of fractures is consistent with liquid water oozing from a subsurface ocean and pushing apart the icy surface — like underwater tectonic spreading, but with water instead of lava.",
+    "Some regions on Ariel appear to be less than 100 million years old — very young by solar system standards — suggesting the moon may still be geologically active today.",
+    "All detailed knowledge of Ariel comes from a single 24-hour window in January 1986 when Voyager 2 flew past, photographing just 35% of the surface. No spacecraft has returned since."
+  ],
+  "UMBRIEL": [
+    "Umbriel was discovered on 24 October 1851 by William Lassell, the same night he found Ariel.",
+    "Umbriel is named after the 'dusky melancholy sprite' in Alexander Pope's 1712 poem The Rape of the Lock — the name also evokes the Latin word umbra, meaning shadow.",
+    "Umbriel is the darkest of Uranus's five major moons, reflecting less than half as much light as its neighbor Ariel despite being nearly the same size.",
+    "The most prominent feature on Umbriel is Wunda crater: a 131 km wide bowl with a mysterious bright ring on its floor — possibly a deposit of pure carbon dioxide ice that migrated from across the entire moon.",
+    "Umbriel shows the least geological activity of all Uranian moons; its heavily cratered surface has probably been largely unchanged since the Late Heavy Bombardment roughly 3.9 billion years ago.",
+    "Like all Uranian moons, Umbriel experiences 42 years of continuous polar darkness followed by 42 years of unbroken sunlight, due to Uranus's extreme axial tilt.",
+    "Umbriel may have undergone a single early resurfacing event that erased its oldest craters, then went geologically quiet — a frozen snapshot of early solar system history.",
+    "Everything known about Umbriel's surface comes from a single Voyager 2 flyby in January 1986, which imaged only about 40% of its surface at low resolution."
+  ],
   "CHARON": [
     "Charon and Pluto are mutually tidally locked — each always shows the same face to the other — and their shared center of mass lies in empty space between the two bodies.",
     "Charon's dark reddish north polar cap, nicknamed 'Mordor,' is made of tholins that escaped Pluto's atmosphere and traveled 19,000 km through space before freezing onto Charon's cold pole.",
@@ -325,9 +386,89 @@ var FUN_FACTS = {
     "Charon's surface is dominated by water ice rather than the nitrogen and methane ices that coat Pluto.",
     "Charon was named after its discoverer James Christy's wife Charlene — nicknamed 'Char' — though Charon was also the ferryman of the dead in Greek mythology.",
     "A science fiction writer in a 1940 novel invented three moons of Pluto and named them Charon, Styx, and Cerberus — three of the five moons later discovered bear almost exactly these names."
-  ]
-};
+  ],
 
+  "VESTA": [
+    "Vesta was discovered on 29 March 1807 by Heinrich Wilhelm Olbers — the fourth asteroid ever found — and named after the Roman goddess of the sacred hearth.",
+    "Vesta is the only known surviving rocky protoplanet: a world that was in the process of forming into a full planet 4.5 billion years ago but was left stranded in the asteroid belt.",
+    "Two enormous impacts gouged craters covering most of Vesta's southern hemisphere. The larger, Rheasilvia, is about 500 km wide and 19 km deep — large enough to hold the state of Texas.",
+    "Debris blasted off Vesta by those impacts has fallen to Earth as meteorites. A whole family of space rocks called HED meteorites comes from Vesta — pieces of another world you can hold in your hand.",
+    "Vesta is the brightest asteroid visible from Earth and occasionally reaches naked-eye brightness at magnitude 5.1 — it can be spotted without a telescope under dark skies.",
+    "Vesta contains an estimated 9% of the total mass of the entire asteroid belt.",
+    "NASA's Dawn spacecraft orbited Vesta from July 2011 to September 2012, mapping it in detail before continuing to Ceres — the first mission to orbit two separate solar system bodies.",
+    "A giant canyon on Vesta, Divalia Fossa, stretches about 465 km — roughly the width of the contiguous United States — and was formed by the impact that created the Rheasilvia basin."
+  ],
+  "ORCUS": [
+    "Orcus was discovered on 17 February 2004 by Michael Brown, Chad Trujillo, and David Rabinowitz — the same team that would later discover Eris, triggering Pluto's reclassification.",
+    "Orcus is sometimes called the 'anti-Pluto': it is locked in the same 2:3 orbital resonance with Neptune as Pluto, but their orbits are mirror images — when Pluto is closest to the Sun, Orcus is farthest away.",
+    "Named after Orcus, the Etruscan god of the underworld and punisher of broken oaths — the Roman equivalent of Pluto, making the 'anti-Pluto' naming perfectly symmetrical.",
+    "Orcus has a large moon named Vanth, after a winged Etruscan underworld goddess who guided the dead. Vanth is the third-largest known moon of a dwarf planet, after Pluto's Charon and Eris's Dysnomia.",
+    "The water ice on Orcus's surface is in crystalline form, which radiation should have converted to amorphous ice in about 10 million years. Something — possibly past cryovolcanism — must have refreshed it.",
+    "Orcus's mass has been calculated from Vanth's orbit, making it approximately equal to that of Saturn's moon Tethys despite orbiting far beyond Neptune.",
+    "At roughly 910 km across, Orcus is comparable in size to Ceres, the largest object in the asteroid belt, but orbits 15 times farther from the Sun.",
+    "Orcus and its moon Vanth have nearly the same density — about 1.5 g/cm³ — suggesting they may have formed together from the same material, possibly in an ancient collision."
+  ],
+  "QUAOAR": [
+    "Quaoar was discovered on 4 June 2002 by Chad Trujillo and Michael Brown at Palomar Observatory — the largest solar system object found since Pluto was discovered in 1930.",
+    "Quaoar has two ring systems — Q1R and Q2R — discovered in 2022 and 2023. They orbit outside the Roche limit, where rings are not supposed to be stable. Quaoar's rings defy the rules.",
+    "Named after Quaoar, the creation deity of the Tongva people indigenous to the Los Angeles Basin where the discoverers work. The name was used with permission of the Tongva tribal historian.",
+    "Quaoar's moon Weywot is named after the Sky Father in Tongva mythology, the first being Quaoar sang into existence — making this one of the first solar system objects named with indigenous permission.",
+    "On the day of its discovery in 2002, Quaoar was assigned minor planet number 50000 as a deliberate honor marking its unusual size — a round number milestone in the catalog.",
+    "Quaoar's elongated shape is unusual for an object its size; scientists believe it originally spun fast enough to be squashed, then its shape froze in place as tidal forces from Weywot slowed its rotation.",
+    "Crystalline water ice on Quaoar's surface must have been warmed to at least 110 K within the last 10 million years — far warmer than its current surface temperature near 44 K — implying past cryovolcanic heating.",
+    "Light from the Sun takes more than 5 hours to reach Quaoar. At its distance, a single orbit around the Sun takes nearly 289 Earth years."
+  ],
+  "ARROKOTH": [
+    "Arrokoth was discovered on 26 June 2014 using the Hubble Space Telescope — it was found specifically as a target for the New Horizons spacecraft to visit after its Pluto flyby.",
+    "On 1 January 2019, New Horizons flew past Arrokoth at 43 AU from the Sun — the most distant object in the Solar System ever visited by a spacecraft.",
+    "Arrokoth is a contact binary: two lobes named Wenu and Weeyo that once orbited each other as a gently spinning pair, then slowly spiraled together and merged without a violent collision.",
+    "Its snowman shape, flattened lobes, and undisturbed surface show that Arrokoth formed in place 4.5 billion years ago and has barely changed since — a preserved relic of the solar system's earliest moments.",
+    "Arrokoth has very few craters, confirming that the outer Kuiper Belt is a calm, sparsely populated place where collisions are rare.",
+    "Named after the Powhatan/Algonquian word for 'sky,' with permission of Powhatan elders, to honor the indigenous people of the Chesapeake Bay — where the Johns Hopkins APL team that operates New Horizons is based.",
+    "Before receiving its official name, Arrokoth was nicknamed 'Ultima Thule' — a historical phrase meaning 'beyond the known world.' The name was later changed at the request of indigenous communities.",
+    "Arrokoth's nearly circular, low-inclination orbit shows it was never disturbed by the gravity of the giant planets — it has been peacefully orbiting in the same spot since the solar system was born."
+  ],
+  "GONGGONG": [
+    "Gonggong was discovered on 17 July 2007 by Megan Schwamb, Michael Brown, and David Rabinowitz, but went unnamed for over a decade because it initially seemed unremarkable despite its large size.",
+    "Its official name was chosen by a public vote in 2019 with about 280,000 participants. Gonggong — a Chinese water god who caused floods and tilted the Earth — won with 46% of the vote.",
+    "Before the public naming, the discovery team nicknamed it 'Snow White' assuming it would be icy and bright. It turned out to be one of the reddest objects in the outer solar system, and the name was dropped.",
+    "At roughly 1,230 km in diameter, Gonggong is the fifth-largest known trans-Neptunian object — similar in size to Pluto's moon Charon.",
+    "Gonggong has a moon named Xiangliu, after the nine-headed poisonous serpent that accompanied Gonggong in Chinese mythology. Xiangliu's tidal forces probably slowed Gonggong's rotation to its unusual 22-hour period.",
+    "Gonggong's orbit is highly eccentric: it swings between 33 AU at its closest (inside the Kuiper Belt) and 101 AU at its farthest — a range of nearly 70 AU in a single orbit lasting 547 years.",
+    "Water ice on Gonggong's surface implies a brief past episode of cryovolcanism, when water erupted from its interior, froze on the surface, and remains visible today.",
+    "As of 2026, Gonggong is about 89 AU from the Sun and moving farther away toward its aphelion, which it will reach around 2134."
+  ],
+  "SEDNA": [
+    "Sedna was discovered on 14 November 2003 by Michael Brown, Chad Trujillo, and David Rabinowitz, and named after the Inuit goddess of the sea who lives at the bottom of the Arctic Ocean.",
+    "Sedna takes approximately 11,400 years to complete one orbit around the Sun — its aphelion is about 937 AU away, nearly 19 times farther than Pluto's farthest point.",
+    "Sedna's perihelion — its closest approach to the Sun — is 76 AU. No known planet can reach that far out to scatter objects into such orbits. Something else put Sedna there, possibly a passing star near the Sun's birth cluster billions of years ago.",
+    "Sedna is one of the reddest objects known in the Solar System, nearly as red as Mars, coated in reddish hydrocarbon sludge called tholins built up over billions of years of radiation exposure.",
+    "Sedna has no known moons — unusual for an object its size — which means its mass has never been directly measured.",
+    "Sedna is approaching its perihelion around 2076, providing a rare window to launch a flyby mission that would reach it around 2057–2070. After that, it won't be this close again for over 11,000 years.",
+    "Sedna may be the first confirmed member of the inner Oort Cloud — a population of objects so distant they were never perturbed by Neptune and exist in a pristine region no spacecraft has ever visited.",
+    "Sedna's unusual orbit is one of the key pieces of evidence for the hypothetical Planet Nine — a distant, unseen world whose gravity may have tilted Sedna into its extreme path."
+  ],
+  "FAROUT": [
+    "FarOut (2018 VG18) was discovered on 10 November 2018 by Scott Sheppard, David Tholen, and Chad Trujillo while they were searching the sky for signs of the hypothetical Planet Nine.",
+    "At the moment of its discovery, FarOut was 123 AU from the Sun — more than three times the average distance of Pluto — making it the most distant solar system object ever observed at the time.",
+    "FarOut appears pinkish, which likely indicates an icy surface, placing it in the same color class as other distant icy bodies in the outer solar system.",
+    "Its orbit is highly elongated: FarOut swings between about 38 AU at perihelion and 125 AU at aphelion, with an orbital period of roughly 737 years.",
+    "FarOut is currently approaching aphelion, drifting slowly outward at only about 0.3 km/s — that's slower than a passenger jet.",
+    "The Subaru Telescope on Mauna Kea in Hawaii discovered FarOut at an apparent magnitude of 24.6 — right at the limit of what the world's largest telescopes can detect.",
+    "FarOut's size has not been directly measured; based on its brightness, it is estimated to be 490–790 km across — large enough to potentially be a dwarf planet.",
+    "FarOut was the most distant known solar system object for only about two months before it was surpassed by FarFarOut, discovered by the same team."
+  ],
+  "FARFAROUT": [
+    "FarFarOut (2018 AG37) was first imaged on 15 January 2018 by Scott Sheppard using the Subaru Telescope, but sat unnoticed in a photo archive for a year before he spotted it in January 2019.",
+    "At 132 AU from the Sun when discovered, FarFarOut is the most distant solar system object ever directly observed — farther than any moon, planet, asteroid, or comet currently being tracked.",
+    "The nickname 'FarFarOut' was coined as a playful one-up on 'FarOut' (2018 VG18), discovered by the same team just one month earlier.",
+    "Despite holding the distance record, FarFarOut's orbit is highly elongated and brings it as close as about 27.6 AU at perihelion — which is inside Neptune's orbit, meaning it crosses into the inner solar system during part of every trip around the Sun.",
+    "FarFarOut is estimated to be 400–600 km in diameter and may be a dwarf planet, though its size has not been directly measured.",
+    "FarFarOut moves so slowly across the sky that two years of observations were not enough to pin down its orbit with certainty — it has a condition code of 9, the highest uncertainty rating given by JPL.",
+    "FarFarOut was discovered while the team was searching for Planet Nine — the hypothetical distant world whose gravity might be shaping the orbits of objects at the solar system's edge.",
+    "At its current distance, sunlight takes over 18 hours to reach FarFarOut. By comparison, it takes only 8 minutes to reach Earth and about 5.5 hours to reach Pluto."
+  ],
+};
 var WIKI_URLS = {
   "SUN":       "https://en.wikipedia.org/wiki/Sun",
   "MERCURY":   "https://en.wikipedia.org/wiki/Mercury_(planet)",
@@ -358,4 +499,18 @@ var WIKI_URLS = {
   "OBERON":    "https://en.wikipedia.org/wiki/Oberon_(moon)",
   "TRITON":    "https://en.wikipedia.org/wiki/Triton_(moon)",
   "CHARON":    "https://en.wikipedia.org/wiki/Charon_(moon)",
+  "TETHYS":    "https://en.wikipedia.org/wiki/Tethys_(moon)",
+  "DIONE":     "https://en.wikipedia.org/wiki/Dione_(moon)",
+  "RHEA":      "https://en.wikipedia.org/wiki/Rhea_(moon)",
+  "IAPETUS":   "https://en.wikipedia.org/wiki/Iapetus_(moon)",
+  "ARIEL":     "https://en.wikipedia.org/wiki/Ariel_(moon)",
+  "UMBRIEL":   "https://en.wikipedia.org/wiki/Umbriel_(moon)",
+  "VESTA":     "https://en.wikipedia.org/wiki/4_Vesta",
+  "ORCUS":     "https://en.wikipedia.org/wiki/Orcus_(dwarf_planet)",
+  "QUAOAR":    "https://en.wikipedia.org/wiki/Quaoar",
+  "ARROKOTH":  "https://en.wikipedia.org/wiki/486958_Arrokoth",
+  "GONGGONG":  "https://en.wikipedia.org/wiki/Gonggong_(dwarf_planet)",
+  "SEDNA":     "https://en.wikipedia.org/wiki/Sedna_(dwarf_planet)",
+  "FAROUT":    "https://en.wikipedia.org/wiki/2018_VG18",
+  "FARFAROUT": "https://en.wikipedia.org/wiki/2018_AG37",
 };

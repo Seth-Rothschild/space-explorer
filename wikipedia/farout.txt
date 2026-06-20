@@ -1,0 +1,57 @@
+SOURCE: Wikipedia — "2018 VG18"
+URL: https://en.wikipedia.org/wiki/2018_VG18
+AUTHORS: Wikipedia contributors
+LICENSE: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+========================================================================
+
+2018 VG18 is a distant trans-Neptunian object (TNO) that was discovered when it was 123 AU (18 billion km; 11 billion mi) from the Sun, more than three times the average distance between the Sun and Pluto. It was discovered on 10 November 2018 by Scott Sheppard, David Tholen, and Chad Trujillo during their search for TNOs whose orbits might be gravitationally influenced by the hypothetical Planet Nine. They announced the discovery of 2018 VG18 on 17 December 2018 and nicknamed the object "Farout" to emphasize its distance from the Sun.
+2018 VG18 is the second-most distant natural object ever observed in the Solar System, after 2018 AG37 (132 AU), which was also discovered by Sheppard's team in January 2018. As of 2024, 2018 VG18 is 123.6 AU (18 billion km) from the Sun and is moving farther away until it reaches aphelion in 2063. While 2018 VG18 is one of the most distant Solar System objects known, its orbit is not the most distant since its average orbital distance from the Sun is 82 AU, which places it in the scattered disk and the 2:9 orbital resonance with Neptune.
+2018 VG18 has not yet been imaged by high-resolution telescopes, so it has no known moons. The Hubble Space Telescope is planned to image 2018 VG18 in 2026, which should determine if it has significantly sized moons. Its size has not been measured, but should be in the range of 490 to 790 km in diameter if it has a moderate albedo.
+
+
+Discovery
+2018 VG18 was discovered by astronomers Scott Sheppard, David Tholen, and Chad Trujillo at the Mauna Kea Observatory in Hawaii on 10 November 2018. The discovery formed part of their search for distant trans-Neptunian objects (TNOs) with orbits that may be gravitationally perturbed by the hypothesized Planet Nine. The search team had been involved in the discoveries of several other distant TNOs, including the sednoids 2012 VP113 and 541132 Leleākūhonua. 2018 VG18 was first identified as a faint object slowly moving in two images taken with the 8.2-meter Subaru Telescope on the night of 10 November 2018. At the time of discovery, 2018 VG18 was located in the constellation Taurus, at a faint apparent magnitude of 24.6, approaching the lowest detectable magnitude limit for most telescopes.
+2018 VG18's low on-sky motion and brightness indicated that it is very distant, which prompted additional follow-up observations to constrain measurements of its orbit and distance. The object was reobserved in December 2018 by Sheppard at the Las Campanas Observatory, with observation times spanning ten days. However, its orbit remained with a significant uncertainty due to its short observation arc. Nonetheless, the discovery of 2018 VG18 along with a preliminary orbit solution was formally announced in a Minor Planet Electronic Circular issued by the Minor Planet Center on 17 December 2018.
+Since the discovery announcement, 2018 VG18 has been periodically observed by Sheppard at the Las Campanas and Mauna Kea observatories. Additional observations were also made at the Roque de los Muchachos Observatory in November 2019 and January 2020. As of 2022, 2018 VG18 has been observed for over five oppositions, with an observation arc of 16 years (5,900 days). Several precovery observations of 2018 VG18 have been identified in images taken by the Cerro Tololo Observatory's Dark Energy Camera on 11 March 2015 and 16 January 2017, as well as images taken by the Canada–France–Hawaii Telescope and Subaru Telescope in November 2003 and September 2005, respectively.
+
+
+Nomenclature
+The discoverers gave 2018 VG18 the nickname "Farout" for its distant location from the Sun, and particularly because it was the farthest known TNO observed at the time. On the same day, the object was formally given the provisional designation 2018 VG18 by the Minor Planet Center. The provisional designation indicates the object's discovery date, with the first letter representing the first half of November and the succeeding letter and numbers indicating that it is the 457th object discovered during that half-month. The object has not yet been assigned an official minor planet number by the Minor Planet Center due to its short observation arc and orbital uncertainty. 2018 VG18 is expected to receive a minor planet number once it has been observed for at least four oppositions, which would take several years. Once it receives a minor planet number, the object will be eligible for naming by its discoverers.
+
+
+Orbit and classification
+
+2018 VG18's average orbital distance from the Sun is approximately 82 AU and it takes approximately 737 years to complete one orbit. Simulations of 2018 VG18's orbit by Marc Buie show that 2018 VG18 is in a 2:9 orbital resonance with Neptune—2018 VG18 orbits exactly twice for every nine orbits completed by Neptune. With an orbital eccentricity of about 0.53, it follows a highly elongated orbit, varying in distance from 38 AU at perihelion to 125 AU at aphelion. Its orbit is inclined to the ecliptic plane by about 24 degrees, with its aphelion oriented below the ecliptic. At perihelion, 2018 VG18 approaches close to Neptune's orbit without crossing it, having a minimum orbit intersection distance of approximately 8 AU. Because 2018 VG18 approaches Neptune at close proximity, its orbit has likely been perturbed and scattered by Neptune; thus, it falls into the category of scattered-disc objects. 2018 VG18 last passed its perihelion in the late 17th century.
+As of 2024, 2018 VG18 is the second-most distant observed Solar System object from the Sun and is the first object discovered while beyond 100 astronomical units (AU), overtaking the dwarf planet Eris (96 AU) in observed distance. 2018 VG18's distance from the Sun is 123.6 AU (18.5 billion km; 11.5 billion mi) as of 2024, more than three times the average distance between the Sun and Pluto (39.5 AU). For comparison, the Voyager 2 and Voyager 1 space probes were approximately 120 AU and 144 AU from the Sun at the time of 2018 VG18's discovery, respectively. At its current distance, 2018 VG18 is thought to be close to the heliopause, the boundary where the Sun's solar wind is stopped by the interstellar medium at around 120 AU. The new orbit determination indicates that this object is currently very close to aphelion which it should reach in mid-2063, and that it is a member of the scattered disc.
+While 2018 VG18 is one of the most distant objects observed, it does not have the largest orbital semi-major axis. For comparison, the semi-major axis of the dwarf planet 90377 Sedna is about 500 AU. In an extreme case, the scattered-disc object 2014 FE72 has a semi-major axis around 1,400 AU, though its distance from the Sun as of 2021 is about 64 AU, approximately half 2018 VG18's distance from the Sun in that year.
+At the time of discovery on 10 November 2018, 2018 VG18's distance from the Sun was 123.4 AU, and has since moved to 123.6 AU from the Sun as of 2024. As it is approaching aphelion, 2018 VG18 is receding from the Sun at a rate of 0.06 AU per year, or 0.3 km/s (670 mph). 2018 VG18 was the farthest TNO known until February 2019, when 2018 AG37 (nicknamed "FarFarOut") was discovered at about 132 AU by Sheppard's team. While 2018 VG18 and 2018 AG37 are among the farthest Solar System objects observable, some historical near-parabolic comets are much further from the Sun. For example, Caesar's Comet (C/-43 K1) is over 800 AU from the Sun while Comet Donati (C/1858 L1) is over 145 AU from the Sun as of 2021.
+
+
+Physical characteristics
+The size of 2018 VG18 is unmeasured, but based on its intrinsic brightness, it is likely large enough to make it a dwarf planet candidate. Based on its apparent brightness and large distance, 2018 VG18's absolute magnitude is estimated to be in the range of 3.4–4.5. According to the Minor Planet Center, it is the ninth intrinsically brightest scattered-disc object.
+The albedo (reflectivity) of 2018 VG18 has not been measured nor constrained, thus its diameter can not be calculated with certainty. Assuming that the albedo of 2018 VG18 is within the range of 0.10–0.15, its diameter should be around 440–870 km (270–540 mi).
+
+
+See also
+
+2018 AG37, nicknamed "FarFarOut" by its discoverers
+List of Solar System objects by greatest aphelion
+List of Solar System objects most distant from the Sun
+List of trans-Neptunian objects
+
+
+Notes
+
+
+References
+ 
+
+
+External links
+
+Discovered: The Most-Distant Solar System Object Ever Observed – Carnegie Science press release
+Farout Images Archived 24 April 2019 at the Wayback Machine – Discovery images of 2018 VG18 taken with the Subaru Telescope
+It's the Solar System's Most Distant Object. Astronomers Named It Farout. – The New York Times article by Kenneth Chang
+Meet your very, *very* distant solar system neighbor 2018 VG18 – Bad Astronomy blog by Phil Plait
+List Of Centaurs and Scattered-Disk Objects – Minor Planet Center
+2018 VG18 at the JPL Small-Body Database

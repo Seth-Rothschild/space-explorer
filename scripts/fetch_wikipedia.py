@@ -32,9 +32,15 @@ MOONS = [
     ("EUROPA",    "Europa_(moon)"),
     ("GANYMEDE",  "Ganymede_(moon)"),
     ("CALLISTO",  "Callisto_(moon)"),
+    ("TETHYS",    "Tethys_(moon)"),
+    ("DIONE",     "Dione_(moon)"),
+    ("RHEA",      "Rhea_(moon)"),
+    ("IAPETUS",   "Iapetus_(moon)"),
     ("TITAN",     "Titan_(moon)"),
     ("ENCELADUS", "Enceladus_(moon)"),
     ("MIMAS",     "Mimas_(moon)"),
+    ("ARIEL",     "Ariel_(moon)"),
+    ("UMBRIEL",   "Umbriel_(moon)"),
     ("MIRANDA",   "Miranda_(moon)"),
     ("TITANIA",   "Titania_(moon)"),
     ("OBERON",    "Oberon_(moon)"),
@@ -42,7 +48,18 @@ MOONS = [
     ("CHARON",    "Charon_(moon)"),
 ]
 
-ALL_BODIES = PLANETS + DWARF_PLANETS + MOONS
+NEW_BODIES = [
+    ("VESTA",     "4_Vesta"),
+    ("ORCUS",     "90482_Orcus"),
+    ("QUAOAR",    "50000_Quaoar"),
+    ("ARROKOTH",  "486958_Arrokoth"),
+    ("GONGGONG",  "Gonggong_(dwarf_planet)"),
+    ("SEDNA",     "90377_Sedna"),
+    ("FAROUT",    "2018_VG18"),
+    ("FARFAROUT", "2018_AG37"),
+]
+
+ALL_BODIES = PLANETS + DWARF_PLANETS + MOONS + NEW_BODIES
 
 API_BASE = "https://en.wikipedia.org/w/api.php"
 PAGE_BASE = "https://en.wikipedia.org/wiki"

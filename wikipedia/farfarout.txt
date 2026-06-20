@@ -1,0 +1,59 @@
+SOURCE: Wikipedia — "2018 AG37"
+URL: https://en.wikipedia.org/wiki/2018_AG37
+AUTHORS: Wikipedia contributors
+LICENSE: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+========================================================================
+
+2018 AG37 is a distant trans-Neptunian object and centaur that was discovered 132.2 ± 1.5 AU (19.78 ± 0.22 billion km) from the Sun, farther than any other currently observable known object in the Solar System. Imaged in January 2018 during a search for the hypothetical Planet Nine, the confirmation of this object was announced in a press release in February 2021 by astronomers Scott Sheppard, David Tholen, and Chad Trujillo. The object was nicknamed "FarFarOut" to emphasize its distance from the Sun.
+2018 AG37 was discovered when it was near aphelion, the farthest point from the Sun in its elliptical orbit. The object is estimated to be at least 400 km (250 mi) in diameter. Because of its extreme distance, 2018 AG37 appears extremely faint with an apparent magnitude of 25—only visible to the largest telescopes in the world.
+
+
+Discovery
+2018 AG37 was first imaged on 15 January 2018 by astronomers Scott Sheppard, David Tholen, and Chad Trujillo when they were surveying the sky using the large 8.2-meter Subaru Telescope at Mauna Kea Observatory, Hawaii, to find distant Solar System objects and the hypothetical Planet Nine, whose existence they proposed in 2014. However, it was not noticed until January 2019, when Sheppard reviewed the Subaru images taken in 2018 after having an upcoming lecture delayed by weather. In two of these images taken one day apart in January, he identified a faint apparent magnitude 25.3 object that moved slowly relative to the background stars and galaxies. Based on two positions of 2018 AG37 in those images, Sheppard estimated its distance was roughly around 140 astronomical units (AU), farther than 2018 VG18 which was discovered and announced by his team one month earlier in December 2018.
+In his rescheduled talk on 21 February 2019, Sheppard remarked on his discovery of 2018 AG37, which he jokingly nicknamed "FarFarOut" as a succession to the nickname "Farout" used for the previous farthest object 2018 VG18. Following 2018 AG37's discovery, Sheppard reobserved the object in March 2019 with the 6.5-meter Magellan-Baade telescope at Las Campanas Observatory, Chile. Additional observations were then made in May 2019 and January 2020 with the Subaru Telescope at Mauna Kea.
+These observations over a two-year period established a tentative orbit solution for 2018 AG37, permitting it to be confirmed and announced by the Minor Planet Center. The confirmation of 2018 AG37 was formally announced in a press release by the Carnegie Institution for Science on 10 February 2021.
+
+
+Name
+The object was nicknamed "FarFarOut" for its distant location from the Sun, and particularly because it was even farther than the previous farthest known object 2018 VG18 which was nicknamed "Farout". It is officially known by the provisional designation 2018 AG37 given by the Minor Planet Center when the discovery was announced. The provisional designation indicates the object's discovery date, with the first letter representing the first half of January and the succeeding letter and numbers indicating that it is the 932nd object discovered during that half-month.
+The object has not yet been assigned an official minor planet number by the Minor Planet Center due to its short observation arc and orbital uncertainty. 2018 AG37 will be given a minor planet number when its orbit is well-secured by observations over multiple opposition and will become eligible for naming by its discoverers after it is numbered with a well-defined orbit.
+
+
+Orbit
+
+As of 2021, 2018 AG37 has been observed nine times over an observation arc of two years. Being so far from the Sun, 2018 AG37 moves so slowly that two years of observations have not adequately determined its orbit. The nominal orbit is highly uncertain with a condition code of 9. Several years of additional observations are necessary to refine the orbital uncertainties. It comes to opposition each January.
+Only 2018 AG37's distance and orbital elements that define its position (inclination and longitude of the ascending node) have been adequately determined by its two-year observation arc. The orbital elements that define the shape and motion of 2018 AG37's orbit (eccentricity, mean anomaly, etc.) are poorly determined because its observation arc does not provide sufficient coverage of its wide-ranging orbit, especially when it moves slowly due to its large distance. The nominal best-fit orbit solution provided by the Jet Propulsion Laboratory (JPL) Small-Body Database gives an orbital semi-major axis of 80.2±4.5 AU and an eccentricity of 0.655±0.02, corresponding to a perihelion and aphelion distance of 27.6±0.2 AU and 133±7 AU, respectively. The orbital period of 2018 AG37 is poorly known, but it probably lies around 700 years.
+Given the uncertainty of 2018 AG37's nominal perihelion distance, it likely crosses Neptune's orbit (30.1 AU) with a nominal minimum orbit intersection distance (MOID) around 3 AU (450 million km; 280 million mi). 2018 AG37's small perihelion distance and elongated orbit implies that it has experienced strong gravitational interactions with Neptune in past close encounters. Other trans-Neptunian objects are known to have been scattered onto similarly distant and elongated orbits by Neptune—these are collectively known as scattered disc objects.
+
+
+Distance
+
+The object was initially estimated to be roughly 140 AU (21 billion km) from the Sun, but this estimate was uncertain due to the very short initial observation arc. When it was announced in February 2021, 2018 AG37 had an observation arc of two years. Based on this, it was 132.2 ± 1.5 AU (19.78 ± 0.22 billion km) from the Sun at the time of its discovery on 15 January 2018. As of January 2024, it is the farthest observed object in the Solar System.
+However, over a hundred trans-Neptunian objects are known to have aphelion distances that bring them farther from the Sun than 2018 AG37 and many near-parabolic comets are currently much farther from the Sun. Comet Donati (C/1858 L1) is over 145 AU (22 billion km), and Caesar's Comet (C/-43 K1) is calculated to be more than 800 AU (120 billion km) from the Sun. However, none of these more distant objects are currently observable even with the most powerful telescopes.
+
+
+Physical characteristics
+
+Based on 2018 AG37's apparent brightness and projected distance, the Minor Planet Center calculates an absolute magnitude of 4.2. It is listed by the MPC as the 12th intrinsically brightest known scattered disc object.
+The size of 2018 AG37 has not been measured, but it likely lies between 400–600 km (250–370 mi) in diameter assuming a geometric albedo range of 0.10–0.25. Sheppard estimates that 2018 AG37's diameter lies at the lower end of this range, as he concludes that it has a highly reflective and ice-rich surface. Johnston classifies 2018 AG37 as a centaur and thus assumes a very dark, centaur-like albedo of 0.057, which translates to a much larger diameter of 797 kilometres (495 mi). If correct, that would make it the largest known centaur.
+
+
+See also
+2018 VG18, the next most distant known object discovered in 2018, nicknamed "Farout"
+List of Solar System objects most distant from the Sun
+
+
+Notes
+
+
+References
+ 
+
+
+External links
+2018 AG37 at the JPL Small-Body Database
+Solar System's Most Distant Known Member Confirmed, Carnegie Institution for Science, 10 February 2021
+Astronomers Confirm Solar System's Most Distant Known Object Is Indeed Farfarout, NOIRLab, 10 February 2021
+Record Breaking Distant Solar-System Object, Subaru Telescope/NAOJ, 10 February 2021
+'Farfarout!' Solar system's most distant planetoid confirmed, University of Hawaiʻi News, 10 February 2021
+"Beyond Pluto: The Hunt for a Massive Planet X", a talk by Sheppard announcing FarFarOut's discovery, Carnegie Institution for Science, 21 February 2019
