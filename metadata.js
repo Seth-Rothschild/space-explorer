@@ -309,14 +309,14 @@ var METADATA = {
     "name_origin_url": "https://en.wikipedia.org/wiki/Vesta_(mythology)",
   },
   "ORCUS": {
-    "instance_of": "dwarf planet",
+    "instance_of": "probable dwarf planet",
     "diameter_km": 917.0,
     "distance_from_sun_au": 39.174,
     "orbital_period_days": 89555.6,
     "name_origin_url": "https://en.wikipedia.org/wiki/Orcus_(mythology)",
   },
   "QUAOAR": {
-    "instance_of": "dwarf planet",
+    "instance_of": "probable dwarf planet",
     "diameter_km": 1260.0,
     "distance_from_sun_au": 43.388,
     "orbital_period_days": 104389.7,
@@ -325,14 +325,14 @@ var METADATA = {
     "name_origin_url": "https://en.wikipedia.org/wiki/Chinigchinix",
   },
   "ARROKOTH": {
-    "instance_of": "asteroid",
+    "instance_of": "trans-Neptunian object",
     "diameter_km": 35.0,
     "distance_from_sun_au": 44.505,
     "orbital_period_days": 108446.5,
     "rotation_period_days": 0.663,
   },
   "GONGGONG": {
-    "instance_of": "dwarf planet",
+    "instance_of": "probable dwarf planet",
     "diameter_km": 1230.0,
     "distance_from_sun_au": 67.476,
     "orbital_period_days": 201184.23,
@@ -340,7 +340,7 @@ var METADATA = {
     "name_origin_url": "https://en.wikipedia.org/wiki/Gong_Gong",
   },
   "SEDNA": {
-    "instance_of": "asteroid",
+    "instance_of": "probable dwarf planet",
     "diameter_km": 995.0,
     "distance_from_sun_au": 484.521,
     "orbital_period_days": 4705404.65,
@@ -349,13 +349,13 @@ var METADATA = {
     "name_origin_url": "https://en.wikipedia.org/wiki/Sedna_(mythology)",
   },
   "FAROUT": {
-    "instance_of": "asteroid",
+    "instance_of": "trans-Neptunian object",
     "diameter_km": 500.0,
     "distance_from_sun_au": 81.969,
     "orbital_period_days": 271063.936,
   },
   "FARFAROUT": {
-    "instance_of": "asteroid",
+    "instance_of": "trans-Neptunian object",
     "diameter_km": 400.0,
     "distance_from_sun_au": 80.178,
     "orbital_period_days": 262230.407,

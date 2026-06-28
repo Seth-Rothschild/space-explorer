@@ -27,7 +27,7 @@ var PLANET_DATA = [
           { name: "DEIMOS",  radius: 3, color: "#B09080", orbit_radius: 42, period: 8,  init_angle: 3.0 },
       ] },
 
-    { name: "VESTA",   radius: 5,  color: "#9898A0", glow: "#B8B8C0", type: "dwarf",
+    { name: "VESTA",   radius: 5,  color: "#9898A0", glow: "#B8B8C0", type: "asteroid",
       orbit_a: 730,  eccentricity: 0.09, orbit_tilt: 0.95, period_years: 3.63,   init_angle: 3.0 },
 
     { name: "CERES",   radius: 5,  color: "#A08878", glow: "#C0A898", type: "dwarf",
@@ -85,25 +85,25 @@ var PLANET_DATA = [
     { name: "ERIS",     radius: 6,  color: "#E8E0D0", glow: "#F8F0E0", type: "dwarf",
       orbit_a: 4200, eccentricity: 0.44, orbit_tilt: 2.10, period_years: 558.8,  init_angle: 5.0 },
 
-    { name: "ORCUS",    radius: 5,  color: "#B0A8C0", glow: "#C8C0D8", type: "dwarf",
+    { name: "ORCUS",    radius: 5,  color: "#B0A8C0", glow: "#C8C0D8", type: "probable",
       orbit_a: 3340, eccentricity: 0.23, orbit_tilt: 2.80, period_years: 246.1,  init_angle: 4.5 },
 
-    { name: "QUAOAR",   radius: 5,  color: "#C07858", glow: "#D89870", type: "dwarf",
+    { name: "QUAOAR",   radius: 5,  color: "#C07858", glow: "#D89870", type: "probable",
       orbit_a: 3650, eccentricity: 0.04, orbit_tilt: 0.30, period_years: 288.8,  init_angle: 1.2 },
 
-    { name: "ARROKOTH", radius: 4,  color: "#C09878", glow: "#D8B090", type: "dwarf",
+    { name: "ARROKOTH", radius: 4,  color: "#C09878", glow: "#D8B090", type: "asteroid",
       orbit_a: 3760, eccentricity: 0.04, orbit_tilt: 2.70, period_years: 297.8,  init_angle: 0.7 },
 
-    { name: "GONGGONG", radius: 5,  color: "#C85040", glow: "#E07050", type: "dwarf",
+    { name: "GONGGONG", radius: 5,  color: "#C85040", glow: "#E07050", type: "probable",
       orbit_a: 4100, eccentricity: 0.50, orbit_tilt: 1.50, period_years: 547.0,  init_angle: 3.2 },
 
-    { name: "SEDNA",    radius: 5,  color: "#D03828", glow: "#E85840", type: "dwarf",
+    { name: "SEDNA",    radius: 5,  color: "#D03828", glow: "#E85840", type: "probable",
       orbit_a: 4600, eccentricity: 0.84, orbit_tilt: 0.70, period_years: 11400,  init_angle: 5.5 },
 
-    { name: "FAROUT",   radius: 4,  color: "#E0B8A8", glow: "#F0C8B8", type: "dwarf",
+    { name: "FAROUT",   radius: 4,  color: "#E0B8A8", glow: "#F0C8B8", type: "asteroid",
       orbit_a: 5000, eccentricity: 0.53, orbit_tilt: 1.80, period_years: 737.0,  init_angle: 1.5 },
 
-    { name: "FARFAROUT",radius: 4,  color: "#C8C0B8", glow: "#E0D8D0", type: "dwarf",
+    { name: "FARFAROUT",radius: 4,  color: "#C8C0B8", glow: "#E0D8D0", type: "asteroid",
       orbit_a: 5400, eccentricity: 0.65, orbit_tilt: 0.50, period_years: 700.0,  init_angle: 3.8 },
 ];
 
@@ -144,7 +144,7 @@ function draw_orbit_paths(ctx, planets, cam_wx, cam_wy) {
         var p = planets[i];
         if (!p.orbit_a) continue;
         var b = p.orbit_a * Math.sqrt(1 - p.eccentricity * p.eccentricity);
-        ctx.strokeStyle = (p.type === "dwarf")
+        ctx.strokeStyle = (p.type === "dwarf" || p.type === "probable")
             ? "rgba(180, 140, 90, 0.45)"
             : "rgba(100, 135, 230, 0.5)";
         ctx.beginPath();
@@ -336,11 +336,12 @@ function draw_planet_name(ctx, p, near_intensity) {
     if (near_intensity > 0.05) { ctx.shadowColor = "#FFFFFF"; ctx.shadowBlur = 12; }
     ctx.fillStyle = "rgba(255,255,255," + (0.55 + near_intensity * 0.45) + ")";
     ctx.fillText(p.name, p.x, label_y);
-    if (p.type === "dwarf" && near_intensity > 0.3) {
+    if ((p.type === "dwarf" || p.type === "probable") && near_intensity > 0.3) {
         ctx.font = "10px Arial";
         ctx.fillStyle = "rgba(200,170,130,0.8)";
         ctx.shadowBlur = 0;
-        ctx.fillText("dwarf planet", p.x, label_y + 14);
+        var type_label = p.type === "probable" ? "probable dwarf planet" : "dwarf planet";
+        ctx.fillText(type_label, p.x, label_y + 14);
     }
     ctx.shadowBlur = 0;
 }
