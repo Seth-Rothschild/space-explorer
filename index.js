@@ -499,7 +499,10 @@ function build_meta_chips(name) {
     if (meta.diameter_km) {
         chips.push(["size", format_size(meta.diameter_km)]);
     }
-    if (meta.distance_from_sun_au) {
+    if (meta.perihelion_au && meta.aphelion_au) {
+        chips.push(["perihelion", meta.perihelion_au + " AU"]);
+        chips.push(["aphelion", meta.aphelion_au + " AU"]);
+    } else if (meta.distance_from_sun_au) {
         chips.push(["from Sun", meta.distance_from_sun_au + " AU"]);
     }
     if (meta.orbit_radius_km) {
@@ -803,6 +806,6 @@ document.getElementById("fact-next").addEventListener("click", function () {
 
 requestAnimationFrame(function () {
     resize_canvas();
-start_in_earth_orbit();
+    start_in_earth_orbit();
     loop();
 });

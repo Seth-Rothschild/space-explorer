@@ -16,13 +16,24 @@ INSTANCE_OF_SIMPLIFIED = {
     "planetary moon":                      "moon",
 }
 
+OFFICIAL_DWARF_PLANETS = {"CERES", "PLUTO", "ERIS", "HAUMEA", "MAKEMAKE"}
+PROBABLE_DWARF_PLANETS = {"ORCUS", "QUAOAR", "GONGGONG", "SEDNA"}
+TNO_MINOR_BODIES      = {"ARROKOTH", "FAROUT", "FARFAROUT"}
+
 def simplify_instance_of(raw, game_key):
     if raw in INSTANCE_OF_SIMPLIFIED:
-        return INSTANCE_OF_SIMPLIFIED[raw]
+        label = INSTANCE_OF_SIMPLIFIED[raw]
+        if label == "dwarf planet" and game_key not in OFFICIAL_DWARF_PLANETS:
+            return "probable dwarf planet"
+        return label
     if "moon" in raw.lower():
         return "moon"
-    if game_key in ("ERIS", "HAUMEA", "MAKEMAKE", "PLUTO", "ORCUS", "GONGGONG", "QUAOAR"):
+    if game_key in OFFICIAL_DWARF_PLANETS:
         return "dwarf planet"
+    if game_key in PROBABLE_DWARF_PLANETS:
+        return "probable dwarf planet"
+    if game_key in TNO_MINOR_BODIES:
+        return "trans-Neptunian object"
     return "asteroid"
 
 NAME_ORIGIN_URLS = {
@@ -99,6 +110,8 @@ PROPS = {
     "P2386": ("diameter_km", "quantity"),
     "P2120": ("radius_km", "quantity"),
     "P2233": ("distance_au", "quantity"),
+    "P2576": ("perihelion_au", "quantity"),
+    "P2585": ("aphelion_au", "quantity"),
     "P2146": ("orbital_period_days", "quantity"),
     "P2147": ("rotation_period_days", "quantity"),
     "P2076": ("surface_temp_c", "quantity"),
@@ -275,6 +288,13 @@ def extract_metadata(entity, entities_cache):
                 value = to_km(amount, unit)
                 if value is not None:
                     result["orbit_radius_km"] = value
+            continue
+        elif field in ("perihelion_au", "aphelion_au"):
+            parent = result.get("parent_body", "Sun")
+            if parent == "Sun":
+                value = to_au(amount, unit)
+                if value is not None:
+                    result[field] = value
             continue
         elif field in ("orbital_period_days", "rotation_period_days"):
             value = to_days(amount, unit)
