@@ -302,6 +302,38 @@ function exit_orbit_display() {
     clear_nav_highlight();
 }
 
+function start_in_earth_orbit() {
+    var earth = null;
+    for (var i = 0; i < planets.length; i++) {
+        if (planets[i].name === "EARTH") {
+            earth = planets[i];
+            break;
+        }
+    }
+    if (!earth) return;
+
+    var orbit_r = earth.radius + 60;
+    var start_angle = -Math.PI / 2;
+
+    ship.state = "orbiting";
+    ship.orbit_target = earth;
+    ship.orbit_angle = start_angle;
+    ship.orbit_radius = orbit_r;
+    ship.wx = earth.wx + Math.cos(start_angle) * orbit_r;
+    ship.wy = earth.wy + Math.sin(start_angle) * orbit_r;
+    ship.angle = start_angle - Math.PI / 2;
+
+    cam_wx = earth.wx;
+    cam_wy = earth.wy;
+
+    earth.visited = true;
+    visited_count = 1;
+    document.getElementById("visited-count").textContent = visited_count;
+    update_nav_visited();
+    show_fact_panel(earth.name, earth.color);
+    highlight_nav_button(earth.name);
+}
+
 function spawn_celebration(p) {
     var colors = ["#FFD700", "#FF6B6B", "#4ECDC4", "#A8E6CF", "#FF8ED4", "#FFD93D", "#C3F0CA"];
     for (var i = 0; i < 28; i++) {
@@ -771,5 +803,6 @@ document.getElementById("fact-next").addEventListener("click", function () {
 
 requestAnimationFrame(function () {
     resize_canvas();
+start_in_earth_orbit();
     loop();
 });
